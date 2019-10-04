@@ -4,18 +4,28 @@ public class Mine {
 
     private boolean isMine;
 //    private boolean hasBeenChecked;
-//    private int numberNearbyMines;
+    private int numberNearbyMines;
 
-    public void setAsMine() {
+    void setAsMine() {
         isMine = true;
     }
 
-    public boolean isMine() {
+    void setNumberNearbyMines(int numberNearbyMines) {
+        this.numberNearbyMines = numberNearbyMines;
+    }
+
+    boolean isMine() {
         return isMine;
     }
 
     @Override
     public String toString() {
-        return isMine ? "X" : ".";
+        if (isMine) {
+            return "X";
+        } else if (numberNearbyMines > 0 && numberNearbyMines < 9) {
+            return "" + numberNearbyMines;
+        } else {
+            return ".";
+        }
     }
 }

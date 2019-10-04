@@ -11,6 +11,9 @@ public class Main {
 
         Minefield minefield = new Minefield(height, width, numMines);
         minefield.generateMineSpots();
+        minefield.evaluateNeighboringMines();
         minefield.printField();
+
+        
     }
 }

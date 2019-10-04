@@ -377,7 +377,7 @@
           <option name="items">
             <list>
               <FrameworkLesson>
-                <option name="currentTaskIndex" value="2" />
+                <option name="currentTaskIndex" value="3" />
                 <option name="customPresentableName" />
                 <option name="id" value="0" />
                 <option name="index" value="1" />
@@ -553,8 +553,8 @@
                       <option name="id" value="7202" />
                       <option name="index" value="3" />
                       <option name="name" value="Look around you" />
-                      <option name="record" value="-1" />
-                      <option name="status" value="Unchecked" />
+                      <option name="record" value="3" />
+                      <option name="status" value="Solved" />
                       <option name="files">
                         <map>
                           <entry key="test/MinesweeperTest.java">
@@ -577,7 +577,7 @@
                                 <option name="answerPlaceholders">
                                   <list />
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="name" value="src/minesweeper/Main.java" />
                                 <option name="text" value="package minesweeper;&#10;&#10;public class Main {&#10;    public static void main(String[] args) {&#10;        // write your code here&#10;    }&#10;}&#10;" />
                                 <option name="trackChanges" value="true" />
@@ -591,7 +591,7 @@
                                 <option name="answerPlaceholders">
                                   <list />
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="name" value="src/minesweeper/Mine.java" />
                                 <option name="text" value="package minesweeper;&#10;&#10;public class Mine {&#10;&#10;    private boolean isMine;&#10;//    private boolean hasBeenChecked;&#10;//    private int numberNearbyMines;&#10;&#10;    public void setAsMine() {&#10;        isMine = true;&#10;    }&#10;&#10;    public boolean isMine() {&#10;        return isMine;&#10;    }&#10;&#10;    @Override&#10;    public String toString() {&#10;        return isMine ? &quot;X&quot; : &quot;.&quot;;&#10;    }&#10;}" />
                                 <option name="trackChanges" value="true" />
@@ -605,7 +605,7 @@
                                 <option name="answerPlaceholders">
                                   <list />
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="name" value="src/minesweeper/Minefield.java" />
                                 <option name="text" value="package minesweeper;&#10;&#10;import java.util.Random;&#10;&#10;public class Minefield {&#10;&#10;    private final int height;&#10;    private final int width;&#10;    private final int numMines;&#10;    private final Mine[][] field;&#10;&#10;    Minefield(int height, int width, int numMines) {&#10;        this.height = height;&#10;        this.width = width;&#10;        this.numMines = numMines;&#10;        field = new Mine[height][width];&#10;        for (int i = 0; i &lt; field.length; i++) {&#10;            for (int j = 0; j &lt; field[0].length; j++) {&#10;                field[i][j] = new Mine();&#10;            }&#10;        }&#10;    }&#10;&#10;    void generateMineSpots() {&#10;        Random random = new Random();&#10;        int minedSpots = 0;&#10;        while (minedSpots &lt; numMines) {&#10;            int heightToMine = random.nextInt(height);&#10;            int widthToMine = random.nextInt(width);&#10;            if (!field[heightToMine][widthToMine].isMine()) {&#10;                field[heightToMine][widthToMine].setAsMine();&#10;                minedSpots++;&#10;            }&#10;        }&#10;    }&#10;&#10;    void printField() {&#10;        for (int i = 0; i &lt; field.length; i++) {&#10;            for (int j = 0; j &lt; field[0].length; j++) {&#10;                System.out.print(field[i][j]);&#10;            }&#10;            System.out.println();&#10;        }&#10;    }&#10;}" />
                                 <option name="trackChanges" value="true" />
@@ -657,6 +657,34 @@
                                 <option name="highlightErrors" value="false" />
                                 <option name="name" value="src/minesweeper/Main.java" />
                                 <option name="text" value="package minesweeper;&#10;&#10;public class Main {&#10;    public static void main(String[] args) {&#10;        // write your code here&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/minesweeper/Mine.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="src/minesweeper/Mine.java" />
+                                <option name="text" value="package minesweeper;&#10;&#10;public class Mine {&#10;&#10;    private boolean isMine;&#10;//    private boolean hasBeenChecked;&#10;    private int numberNearbyMines;&#10;&#10;    void setAsMine() {&#10;        isMine = true;&#10;    }&#10;&#10;    void setNumberNearbyMines(int numberNearbyMines) {&#10;        this.numberNearbyMines = numberNearbyMines;&#10;    }&#10;&#10;    boolean isMine() {&#10;        return isMine;&#10;    }&#10;&#10;    @Override&#10;    public String toString() {&#10;        if (isMine) {&#10;            return &quot;X&quot;;&#10;        } else if (numberNearbyMines &gt; 0 &amp;&amp; numberNearbyMines &lt; 9) {&#10;            return &quot;&quot; + numberNearbyMines;&#10;        } else {&#10;            return &quot;.&quot;;&#10;        }&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/minesweeper/Minefield.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="src/minesweeper/Minefield.java" />
+                                <option name="text" value="package minesweeper;&#10;&#10;import java.util.Random;&#10;&#10;public class Minefield {&#10;&#10;    private final int fieldHeight;&#10;    private final int fieldWidth;&#10;    private final int numMines;&#10;    private final Mine[][] field;&#10;&#10;    Minefield(int fieldHeight, int fieldWidth, int numMines) {&#10;        this.fieldHeight = fieldHeight;&#10;        this.fieldWidth = fieldWidth;&#10;        this.numMines = numMines;&#10;        field = new Mine[fieldHeight][fieldWidth];&#10;        for (int i = 0; i &lt; field.length; i++) {&#10;            for (int j = 0; j &lt; field[0].length; j++) {&#10;                field[i][j] = new Mine();&#10;            }&#10;        }&#10;    }&#10;&#10;    void generateMineSpots() {&#10;        Random random = new Random();&#10;        int minedSpots = 0;&#10;        while (minedSpots &lt; numMines) {&#10;            int heightToMine = random.nextInt(fieldHeight);&#10;            int widthToMine = random.nextInt(fieldWidth);&#10;            if (!field[heightToMine][widthToMine].isMine()) {&#10;                field[heightToMine][widthToMine].setAsMine();&#10;                minedSpots++;&#10;            }&#10;        }&#10;    }&#10;&#10;    void evaluateNeighboringMines() {&#10;        for (int i = 0; i &lt; field.length; i++) {&#10;            for (int j = 0; j &lt; field[0].length; j++) {&#10;                int mineCount = 0;&#10;                mineCount += isNeighborMine(i - 1, j - 1) ? 1 : 0;&#10;                mineCount += isNeighborMine(i - 1, j) ? 1 : 0;&#10;                mineCount += isNeighborMine(i - 1, j + 1) ? 1 : 0;&#10;                mineCount += isNeighborMine(i, j - 1) ? 1 : 0;&#10;                mineCount += isNeighborMine(i, j + 1) ? 1 : 0;&#10;                mineCount += isNeighborMine(i + 1, j - 1) ? 1 : 0;&#10;                mineCount += isNeighborMine(i + 1, j) ? 1 : 0;&#10;                mineCount += isNeighborMine(i + 1, j + 1) ? 1 : 0;&#10;                field[i][j].setNumberNearbyMines(mineCount);&#10;            }&#10;            System.out.println();&#10;        }&#10;    }&#10;&#10;    private boolean isNeighborMine(int height, int width) {&#10;        if (height &lt; 0 || width &lt; 0 || height &gt;= fieldHeight || width &gt;= fieldWidth) {&#10;            return false;&#10;        }&#10;        return field[height][width].isMine();&#10;    }&#10;&#10;    void printField() {&#10;        for (int i = 0; i &lt; field.length; i++) {&#10;            for (int j = 0; j &lt; field[0].length; j++) {&#10;                System.out.print(field[i][j]);&#10;            }&#10;            System.out.println();&#10;        }&#10;    }&#10;}" />
                                 <option name="trackChanges" value="true" />
                                 <option name="visible" value="true" />
                               </TaskFile>
