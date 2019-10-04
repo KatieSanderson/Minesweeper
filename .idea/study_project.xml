@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="StudySettings">
+    <StudyTaskManager>
+      <option name="VERSION" value="16" />
+      <option name="myUserTests">
+        <map />
+      </option>
+      <option name="course">
+        <HyperskillCourse>
+          <option name="authors">
+            <list />
+          </option>
+          <option name="courseMode" value="Study" />
+          <option name="customPresentableName" />
+          <option name="description" value="You played this game when there was no internet on the computer, didn’t you? It is time to remember the old days. In this project you will create a game &quot;Minesweeper&quot;.&lt;br/&gt;&lt;br/&gt;Learn more at &lt;a href=&quot;https://hyperskill.org&quot;&gt;https://hyperskill.org/projects/77&lt;/a&gt;" />
+          <option name="environment" value="" />
+          <option name="id" value="0" />
+          <option name="index" value="-1" />
+          <option name="language" value="JAVA 11" />
+          <option name="languageCode" value="en" />
+          <option name="name" value="Minesweeper" />
+          <option name="stages">
+            <list>
+              <HyperskillStage>
+                <option name="id" value="426" />
+                <option name="stepId" value="7200" />
+                <option name="title" value="Lay the groundwork" />
+              </HyperskillStage>
+              <HyperskillStage>
+                <option name="id" value="427" />
+                <option name="stepId" value="7201" />
+                <option name="title" value="Flexible mines" />
+              </HyperskillStage>
+              <HyperskillStage>
+                <option name="id" value="428" />
+                <option name="stepId" value="7202" />
+                <option name="title" value="Look around you" />
+              </HyperskillStage>
+              <HyperskillStage>
+                <option name="id" value="429" />
+                <option name="stepId" value="7203" />
+                <option name="title" value="Prepare for battle" />
+              </HyperskillStage>
+              <HyperskillStage>
+                <option name="id" value="430" />
+                <option name="stepId" value="7204" />
+                <option name="title" value="Battle!" />
+              </HyperskillStage>
+            </list>
+          </option>
+          <option name="taskToTopics">
+            <map>
+              <entry key="0">
+                <value>
+                  <list>
+                    <HyperskillTopic>
+                      <option name="id" value="480" />
+                      <option name="theoryId" value="6577" />
+                      <option name="title" value="Command line overview" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="259" />
+                      <option name="theoryId" value="3805" />
+                      <option name="title" value="IDE" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="15" />
+                      <option name="theoryId" value="3500" />
+                      <option name="title" value="Introduction to Java" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="147" />
+                      <option name="theoryId" value="3522" />
+                      <option name="title" value="Basic literals" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="148" />
+                      <option name="theoryId" value="3521" />
+                      <option name="title" value="The first program" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="193" />
+                      <option name="theoryId" value="3749" />
+                      <option name="title" value="Printing data" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="14" />
+                      <option name="theoryId" value="3518" />
+                      <option name="title" value="Types and variables" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="309" />
+                      <option name="theoryId" value="5035" />
+                      <option name="title" value="Primitive and reference types" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="4" />
+                      <option name="theoryId" value="3511" />
+                      <option name="title" value="Array" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="30" />
+                      <option name="theoryId" value="3520" />
+                      <option name="title" value="Comments" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="112" />
+                      <option name="theoryId" value="3513" />
+                      <option name="title" value="Naming variables" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="146" />
+                      <option name="theoryId" value="3519" />
+                      <option name="title" value="Arithmetic operations" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="191" />
+                      <option name="theoryId" value="3739" />
+                      <option name="title" value="Write, compile and run" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="149" />
+                      <option name="theoryId" value="3499" />
+                      <option name="title" value="JVM, JRE and JDK" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="192" />
+                      <option name="theoryId" value="3746" />
+                      <option name="title" value="Running programs on your computer" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="113" />
+                      <option name="theoryId" value="3603" />
+                      <option name="title" value="Scanning the input" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="27" />
+                      <option name="theoryId" value="3565" />
+                      <option name="title" value="Integer types and operations" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="87" />
+                      <option name="theoryId" value="3516" />
+                      <option name="title" value="Boolean and logical operations" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="88" />
+                      <option name="theoryId" value="3512" />
+                      <option name="title" value="Relational operators" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="307" />
+                      <option name="theoryId" value="5008" />
+                      <option name="title" value="Increment and decrement" />
+                    </HyperskillTopic>
+                  </list>
+                </value>
+              </entry>
+              <entry key="1">
+                <value>
+                  <list>
+                    <HyperskillTopic>
+                      <option name="id" value="117" />
+                      <option name="theoryId" value="3614" />
+                      <option name="title" value="Introduction to OOP" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="502" />
+                      <option name="theoryId" value="6865" />
+                      <option name="title" value="Units of information" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="362" />
+                      <option name="theoryId" value="5544" />
+                      <option name="title" value="Binary numbers" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="161" />
+                      <option name="theoryId" value="3532" />
+                      <option name="title" value="Sizes and ranges" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="32" />
+                      <option name="theoryId" value="3510" />
+                      <option name="title" value="Type casting" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="31" />
+                      <option name="theoryId" value="3514" />
+                      <option name="title" value="Characters" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="9" />
+                      <option name="theoryId" value="3523" />
+                      <option name="title" value="String" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="115" />
+                      <option name="theoryId" value="3618" />
+                      <option name="title" value="Defining classes" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="96" />
+                      <option name="theoryId" value="4727" />
+                      <option name="title" value="Objects" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="301" />
+                      <option name="theoryId" value="4910" />
+                      <option name="title" value="Random" />
+                    </HyperskillTopic>
+                  </list>
+                </value>
+              </entry>
+              <entry key="2">
+                <value>
+                  <list>
+                    <HyperskillTopic>
+                      <option name="id" value="266" />
+                      <option name="theoryId" value="4953" />
+                      <option name="title" value="Computer algorithms" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="263" />
+                      <option name="theoryId" value="4991" />
+                      <option name="title" value="The big O notation" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="267" />
+                      <option name="theoryId" value="5161" />
+                      <option name="title" value="Data structures" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="538" />
+                      <option name="theoryId" value="7263" />
+                      <option name="title" value="Pseudocode" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="537" />
+                      <option name="theoryId" value="7255" />
+                      <option name="title" value="Fixed-size array" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="346" />
+                      <option name="theoryId" value="5357" />
+                      <option name="title" value="Dynamic array" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="60" />
+                      <option name="theoryId" value="3497" />
+                      <option name="title" value="What is an exception" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="164" />
+                      <option name="theoryId" value="1945" />
+                      <option name="title" value="NPE" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="167" />
+                      <option name="theoryId" value="3492" />
+                      <option name="title" value="Generic programming" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="166" />
+                      <option name="theoryId" value="3567" />
+                      <option name="title" value="ArrayList" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="163" />
+                      <option name="theoryId" value="3536" />
+                      <option name="title" value="Errors in programs" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="152" />
+                      <option name="theoryId" value="3506" />
+                      <option name="title" value="Ternary operator" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="94" />
+                      <option name="theoryId" value="3590" />
+                      <option name="title" value="Defining methods" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="99" />
+                      <option name="theoryId" value="3594" />
+                      <option name="title" value="Arrays as parameters" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="17" />
+                      <option name="theoryId" value="3535" />
+                      <option name="title" value="Constructor" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="116" />
+                      <option name="theoryId" value="3495" />
+                      <option name="title" value="Instance methods" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="6" />
+                      <option name="theoryId" value="3595" />
+                      <option name="title" value="Boxing and unboxing" />
+                    </HyperskillTopic>
+                  </list>
+                </value>
+              </entry>
+              <entry key="3">
+                <value>
+                  <list>
+                    <HyperskillTopic>
+                      <option name="id" value="33" />
+                      <option name="theoryId" value="3504" />
+                      <option name="title" value="Switch statement" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="7" />
+                      <option name="theoryId" value="3621" />
+                      <option name="title" value="Package" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="26" />
+                      <option name="theoryId" value="3607" />
+                      <option name="title" value="Enum" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="28" />
+                      <option name="theoryId" value="3589" />
+                      <option name="title" value="Access modifiers" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="24" />
+                      <option name="theoryId" value="3599" />
+                      <option name="title" value="Getters and setters" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="38" />
+                      <option name="theoryId" value="3534" />
+                      <option name="title" value="Static members" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="121" />
+                      <option name="theoryId" value="3533" />
+                      <option name="title" value="Initialization blocks" />
+                    </HyperskillTopic>
+                  </list>
+                </value>
+              </entry>
+              <entry key="4">
+                <value>
+                  <list>
+                    <HyperskillTopic>
+                      <option name="id" value="43" />
+                      <option name="theoryId" value="3591" />
+                      <option name="title" value="Basics of collections" />
+                    </HyperskillTopic>
+                    <HyperskillTopic>
+                      <option name="id" value="45" />
+                      <option name="theoryId" value="3576" />
+                      <option name="title" value="Queue and Stack" />
+                    </HyperskillTopic>
+                  </list>
+                </value>
+              </entry>
+            </map>
+          </option>
+          <option name="updateDate" value="0" />
+          <option name="hyperskillProject">
+            <HyperskillProject>
+              <option name="description" value="You played this game when there was no internet on the computer, didn’t you? It is time to remember the old days. In this project you will create a game &quot;Minesweeper&quot;." />
+              <option name="id" value="77" />
+              <option name="ideFiles" value="https://stepik.org/media/attachments/lesson/254285/additional_files.json" />
+              <option name="language" value="java" />
+              <option name="title" value="Minesweeper" />
+              <option name="useIde" value="true" />
+            </HyperskillProject>
+          </option>
+          <option name="items">
+            <list>
+              <FrameworkLesson>
+                <option name="currentTaskIndex" value="2" />
+                <option name="customPresentableName" />
+                <option name="id" value="0" />
+                <option name="index" value="1" />
+                <option name="name" value="Minesweeper" />
+                <option name="updateDate" value="0" />
+                <option name="unitId" value="0" />
+                <option name="items">
+                  <list>
+                    <EduTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;h2 style=&quot;text-align: center;&quot;&gt;Description&lt;/h2&gt;&#10;&#10;&lt;p&gt;Minesweeper is a game with a field in which there are a lot of mines. You need to find where all these mines are located. To help you find the mines, there are cells which show how many mines are located around them.&lt;/p&gt;&#10;&#10;&lt;p&gt;Your first step would be easy. In this step, you need to output some state of the field. The field contains mines marked as &lt;code&gt;'X'&lt;/code&gt; and safe places marked as &lt;code&gt;'.'&lt;/code&gt;, but you can choose your own symbols for marking places with mines and safe places. Note that all the mines are in plain sight, so you don't have to hide them from the user at this stage!&lt;/p&gt;&#10;&#10;&lt;h2 style=&quot;text-align: center;&quot;&gt;Example&lt;/h2&gt;&#10;&#10;&lt;p&gt;In the example, there are 10 mines in a 9x9 field. You can write to the output of any other configuration of mines.&lt;/p&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;.X.......&#10;.....X..X&#10;....X....&#10;......X..&#10;..X......&#10;....X....&#10;..X......&#10;..X......&#10;......X..&lt;/code&gt;&lt;/pre&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/projects/77/stages/426/implement" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="7200" />
+                      <option name="index" value="1" />
+                      <option name="name" value="Lay the groundwork" />
+                      <option name="record" value="1" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/minesweeper/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/minesweeper/Main.java" />
+                                <option name="text" value="package minesweeper;&#10;&#10;public class Main {&#10;    public static void main(String[] args) {&#10;        // write your code here&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="test/MinesweeperTest.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/MinesweeperTest.java" />
+                                <option name="text" value="import minesweeper.Main;&#10;import org.hyperskill.hstest.dev.stage.BaseStageTest;&#10;import org.hyperskill.hstest.dev.testcase.CheckResult;&#10;import org.hyperskill.hstest.dev.testcase.TestCase;&#10;&#10;import java.util.Arrays;&#10;import java.util.List;&#10;import java.util.Set;&#10;import java.util.TreeSet;&#10;import java.util.stream.Collectors;&#10;&#10;public class MinesweeperTest extends BaseStageTest {&#10;&#10;    public MinesweeperTest() {&#10;        super(Main.class);&#10;    }&#10;&#10;    @Override&#10;    public List&lt;TestCase&gt; generate() {&#10;        return Arrays.asList(&#10;            new TestCase&lt;&gt;()&#10;        );&#10;    }&#10;&#10;    @Override&#10;    public CheckResult check(String reply, Object attach) {&#10;        List&lt;String&gt; lines =&#10;            Arrays.stream(reply.split(&quot;\n&quot;))&#10;            .map(String::trim)&#10;            .collect(Collectors.toList());&#10;&#10;        if (lines.isEmpty()) {&#10;            return CheckResult.FALSE(&#10;                &quot;Looks like you didn't output a single line!&quot;&#10;            );&#10;        }&#10;&#10;        int firstLineLength = lines.get(0).length();&#10;&#10;        Set&lt;Character&gt; symbols = new TreeSet&lt;&gt;();&#10;&#10;        for (String line : lines) {&#10;            int currLineLength = line.length();&#10;&#10;            if (currLineLength != firstLineLength) {&#10;                return CheckResult.FALSE(&#10;                    &quot;You have lines with different lengths!\n&quot; +&#10;                        &quot;Found lines with &quot; + currLineLength + &quot; and &quot; +&#10;                        firstLineLength + &quot; length.&quot;&#10;                );&#10;            }&#10;&#10;            for (char c : line.toCharArray()) {&#10;                symbols.add(c);&#10;&#10;                if (symbols.size() == 3) {&#10;                    Character[] ch = symbols.toArray(new Character[0]);&#10;                    char first = ch[0];&#10;                    char second = ch[1];&#10;                    char third = ch[2];&#10;&#10;                    return CheckResult.FALSE(&#10;                        &quot;There are three different symbols, &quot; +&#10;                        &quot;but there must be two - &quot; +&#10;                        &quot;one for mines, one for safe zones. &quot; +&#10;                        &quot;Symbols found: &quot; +&#10;                        &quot;\'&quot; + first + &quot;\', &quot; +&#10;                        &quot;\'&quot; + second + &quot;\', &quot; +&#10;                        &quot;\'&quot; + third + &quot;\'.&quot;&#10;                    );&#10;                }&#10;            }&#10;        }&#10;&#10;        return CheckResult.TRUE;&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/minesweeper/Mine.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/minesweeper/Mine.java" />
+                                <option name="text" value="" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/minesweeper/Minefield.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/minesweeper/Minefield.java" />
+                                <option name="text" value="" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1568629627000" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;h2 style=&quot;text-align: center;&quot;&gt;Description&lt;/h2&gt;&#10;&#10;&lt;p&gt;It is not interesting when the field has exactly the same setup every time and you know where all the mines are located, isn't it? To avoid that, let's generate a new random configuration every time the user wants to play the game.&lt;/p&gt;&#10;&#10;&lt;p&gt;Let's improve the program and let the user choose how many mines she wants to play with on the field. The user just needs to input a number from the keyboard.&lt;/p&gt;&#10;&#10;&lt;p&gt;The program should ask the user how many mines he wants to see on the field and then display the field with mines. The mines must still be visible to the user, you will hide them in the following stages. Make sure that mines are marked with the &lt;code&gt;'X'&lt;/code&gt; character and safe fields are marked with the &lt;code&gt;'.'&lt;/code&gt; character. Also, use a 9x9 field, the tests check the field of this size.&lt;/p&gt;&#10;&#10;&lt;p&gt;In this stage, you need to use a random number generator. The class you need is &lt;code&gt;java.util.Random&lt;/code&gt;.&lt;/p&gt;&#10;&#10;&lt;h2 style=&quot;text-align: center;&quot;&gt;Examples&lt;/h2&gt;&#10;&#10;&lt;p&gt;&lt;strong&gt;Example 1:&lt;/strong&gt;&lt;/p&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;How many mines do you want on the field? 10&#10;........X&#10;........X&#10;......X.X&#10;X........&#10;.........&#10;......X..&#10;XX......X&#10;.........&#10;.....X...&lt;/code&gt;&lt;/pre&gt;&#10;&#10;&lt;p&gt;&lt;strong&gt;Example 2:&lt;/strong&gt;&lt;/p&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;How many mines do you want on the field? 10&#10;.........&#10;.X.......&#10;...X...XX&#10;X........&#10;.X.......&#10;.........&#10;.........&#10;X......X.&#10;...X....X&lt;/code&gt;&lt;/pre&gt;&#10;&#10;&lt;p&gt;&lt;strong&gt;Example 3:&lt;/strong&gt;&lt;/p&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;How many mines do you want on the field? 20&#10;.X..XX...&#10;.....XX.X&#10;....XX...&#10;....XX.XX&#10;.X......X&#10;.....X...&#10;..X..XX..&#10;.........&#10;.X.....X.&#10;&lt;/code&gt;&lt;/pre&gt;&#10;&#10;&lt;p&gt; &lt;/p&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/projects/77/stages/427/implement" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="7201" />
+                      <option name="index" value="2" />
+                      <option name="name" value="Flexible mines" />
+                      <option name="record" value="2" />
+                      <option name="status" value="Solved" />
+                      <option name="files">
+                        <map>
+                          <entry key="test/MinesweeperTest.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/MinesweeperTest.java" />
+                                <option name="text" value="import minesweeper.Main;&#10;import org.hyperskill.hstest.dev.dynamic.output.SystemOutHandler;&#10;import org.hyperskill.hstest.dev.stage.BaseStageTest;&#10;import org.hyperskill.hstest.dev.testcase.CheckResult;&#10;import org.hyperskill.hstest.dev.testcase.TestCase;&#10;&#10;import java.util.*;&#10;import java.util.stream.Collectors;&#10;&#10;public class MinesweeperTest extends BaseStageTest&lt;Integer&gt; {&#10;&#10;    public MinesweeperTest() {&#10;        super(Main.class);&#10;    }&#10;&#10;    @Override&#10;    public List&lt;TestCase&lt;Integer&gt;&gt; generate() {&#10;        List&lt;TestCase&lt;Integer&gt;&gt; tests = new ArrayList&lt;&gt;();&#10;        for (int i = 1; i &lt;= 50; i++) {&#10;            TestCase&lt;Integer&gt; test = new TestCase&lt;Integer&gt;()&#10;                .addInput(&quot;&quot; + i)&#10;                .setAttach(i);&#10;            tests.add(test);&#10;            tests.add(test);&#10;        }&#10;        return tests;&#10;    }&#10;&#10;    @Override&#10;    public CheckResult check(String reply, Integer attach) {&#10;&#10;        String outputSinceLastInput = SystemOutHandler.getDynamicOutput().trim();&#10;&#10;        List&lt;String&gt; lines =&#10;            Arrays.stream(outputSinceLastInput.split(&quot;\n&quot;))&#10;                .map(String::trim)&#10;                .collect(Collectors.toList());&#10;&#10;        if (lines.isEmpty()) {&#10;            return CheckResult.FALSE(&#10;                &quot;Looks like you didn't output a single line!&quot;&#10;            );&#10;        }&#10;&#10;        if (lines.size() != 9) {&#10;            return CheckResult.FALSE(&#10;                &quot;You should output exactly 9 lines of the field. Found: &quot; + lines.size() + &quot;.&quot;&#10;            );&#10;        }&#10;&#10;        int mines = 0;&#10;&#10;        for (String line : lines) {&#10;            if (line.length() != 9) {&#10;                return CheckResult.FALSE(&#10;                    &quot;One of the lines of the field doesn't have 9 symbols, &quot; +&#10;                        &quot;but has &quot; + line.length() + &quot;.\n&quot; +&#10;                        &quot;This line is \&quot;&quot; + line + &quot;\&quot;&quot;&#10;                );&#10;            }&#10;&#10;            for (char c : line.toCharArray()) {&#10;                if (c != 'X' &amp;&amp; c != '.') {&#10;                    return CheckResult.FALSE(&#10;                        &quot;One of the characters is not equal to either 'X' or '.'.\n&quot; +&#10;                            &quot;In this line: \&quot;&quot; + line + &quot;\&quot;.&quot;&#10;                    );&#10;                }&#10;                if (c == 'X') {&#10;                    mines++;&#10;                }&#10;            }&#10;        }&#10;&#10;        if (attach != mines) {&#10;            return CheckResult.FALSE(&#10;                &quot;Expected to see &quot; + attach + &quot; mines, found &quot; + mines&#10;            );&#10;        }&#10;&#10;        return CheckResult.TRUE;&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/minesweeper/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/minesweeper/Main.java" />
+                                <option name="text" value="package minesweeper;&#10;&#10;public class Main {&#10;    public static void main(String[] args) {&#10;        // write your code here&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/minesweeper/Mine.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/minesweeper/Mine.java" />
+                                <option name="text" value="package minesweeper;&#10;&#10;public class Mine {&#10;&#10;    private boolean isMine;&#10;//    private boolean hasBeenChecked;&#10;//    private int numberNearbyMines;&#10;&#10;    public void setAsMine() {&#10;        isMine = true;&#10;    }&#10;&#10;    @Override&#10;    public String toString() {&#10;        return isMine ? &quot;x&quot; : &quot;.&quot;;&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/minesweeper/Minefield.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/minesweeper/Minefield.java" />
+                                <option name="text" value="package minesweeper;&#10;&#10;import java.util.Set;&#10;&#10;public class Minefield {&#10;&#10;    private final int height;&#10;    private final int width;&#10;    private final Mine[][] field;&#10;&#10;    public Minefield(int height, int width) {&#10;        this.height = height;&#10;        this.width = width;&#10;        field = new Mine[height][width];&#10;        for (int i = 0; i &lt; field.length; i++) {&#10;            for (int j = 0; j &lt; field[0].length; j++) {&#10;                field[i][j] = new Mine();&#10;            }&#10;        }&#10;    }&#10;&#10;    public void setMines(Set&lt;Integer&gt; spotsToMine) {&#10;        for (int spot : spotsToMine) {&#10;            field[spot / height][spot % width].setAsMine();&#10;        }&#10;    }&#10;&#10;    public void printField() {&#10;        for (int i = 0; i &lt; field.length; i++) {&#10;            for (int j = 0; j &lt; field[0].length; j++) {&#10;                System.out.print(field[i][j]);&#10;            }&#10;            System.out.println();&#10;        }&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1568629628000" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;h2 style=&quot;text-align: center;&quot;&gt;Description&lt;/h2&gt;&#10;&#10;&lt;p&gt;In this step, you need to calculate how many mines are around each empty cell. You need to check 8 cells if the cell is in the middle, 5 cells if the cell is in the side, and 3 cells if the cell is in the corner. If there are from 1 to 8 mines are around the cell, you need to output the number of mines instead of the symbol representing an empty cell.&lt;/p&gt;&#10;&#10;&lt;p&gt;Check all the possibilities carefully. &lt;/p&gt;&#10;&#10;&lt;h2 style=&quot;text-align: center;&quot;&gt;Examples&lt;/h2&gt;&#10;&#10;&lt;p&gt;&lt;strong&gt;Example 1&lt;/strong&gt;&lt;/p&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;How many mines do you want on the field? 10&#10;.........&#10;.111111..&#10;.1X22X211&#10;.112X33X1&#10;...12X211&#10;....1221.&#10;..1111X1.&#10;123X1222.&#10;1XX211X1.&lt;/code&gt;&lt;/pre&gt;&#10;&#10;&lt;p&gt;&lt;strong&gt;Example 2&lt;/strong&gt;&lt;/p&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;How many mines do you want on the field? 15&#10;1221.....&#10;2XX21....&#10;X34X2..11&#10;112X2..2X&#10;11211..3X&#10;1X1....2X&#10;12321..11&#10;12XX11232&#10;X22211XXX&lt;/code&gt;&lt;/pre&gt;&#10;&#10;&lt;p&gt;&lt;strong&gt;Example 3&lt;/strong&gt;&lt;/p&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;How many mines do you want on the field? 20&#10;.2X3X23XX&#10;13X43X3X3&#10;1X3X32211&#10;2232X1...&#10;2X2221...&#10;X32X1..11&#10;X32331.1X&#10;X21XX2.22&#10;1113X2.1X&lt;/code&gt;&lt;/pre&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/projects/77/stages/428/implement" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="7202" />
+                      <option name="index" value="3" />
+                      <option name="name" value="Look around you" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="files">
+                        <map>
+                          <entry key="test/MinesweeperTest.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/MinesweeperTest.java" />
+                                <option name="text" value="import minesweeper.Main;&#10;import org.hyperskill.hstest.dev.dynamic.output.SystemOutHandler;&#10;import org.hyperskill.hstest.dev.stage.BaseStageTest;&#10;import org.hyperskill.hstest.dev.testcase.CheckResult;&#10;import org.hyperskill.hstest.dev.testcase.TestCase;&#10;&#10;import java.util.*;&#10;import java.util.stream.Collectors;&#10;&#10;public class MinesweeperTest extends BaseStageTest&lt;Integer&gt; {&#10;&#10;    public MinesweeperTest() {&#10;        super(Main.class);&#10;    }&#10;&#10;    @Override&#10;    public List&lt;TestCase&lt;Integer&gt;&gt; generate() {&#10;        List&lt;TestCase&lt;Integer&gt;&gt; tests = new ArrayList&lt;&gt;();&#10;        for (int i = 1; i &lt;= 50; i++) {&#10;            TestCase&lt;Integer&gt; test = new TestCase&lt;Integer&gt;()&#10;                .addInput(&quot;&quot; + i)&#10;                .setAttach(i);&#10;            tests.add(test);&#10;            tests.add(test);&#10;        }&#10;        return tests;&#10;    }&#10;&#10;    @Override&#10;    public CheckResult check(String reply, Integer attach) {&#10;&#10;        String outputSinceLastInput = SystemOutHandler.getDynamicOutput().trim();&#10;&#10;        List&lt;String&gt; lines =&#10;            Arrays.stream(outputSinceLastInput.split(&quot;\n&quot;))&#10;                .map(String::trim)&#10;                .collect(Collectors.toList());&#10;&#10;        if (lines.isEmpty()) {&#10;            return CheckResult.FALSE(&#10;                &quot;Looks like you didn't output a single line!&quot;&#10;            );&#10;        }&#10;&#10;        if (lines.size() != 9) {&#10;            return CheckResult.FALSE(&#10;                &quot;You should output exactly 9 lines of the field. Found: &quot; + lines.size() + &quot;.&quot;&#10;            );&#10;        }&#10;&#10;        int mines = 0;&#10;&#10;        for (String line : lines) {&#10;            if (line.length() != 9) {&#10;                return CheckResult.FALSE(&#10;                    &quot;One of the lines of the field doesn't have 9 symbols, &quot; +&#10;                        &quot;but has &quot; + line.length() + &quot;.\n&quot; +&#10;                        &quot;This line is \&quot;&quot; + line + &quot;\&quot;&quot;&#10;                );&#10;            }&#10;&#10;            for (char c : line.toCharArray()) {&#10;                if (c != 'X' &amp;&amp; c != '.' &amp;&amp; !(c &gt;= '0' &amp;&amp; c &lt;= '9')) {&#10;                    return CheckResult.FALSE(&#10;                        &quot;One of the characters is not equal to 'X' or '.' or to a number.\n&quot; +&#10;                            &quot;In this line: \&quot;&quot; + line + &quot;\&quot;.&quot;&#10;                    );&#10;                }&#10;                if (c == 'X') {&#10;                    mines++;&#10;                }&#10;            }&#10;        }&#10;&#10;        if (attach != mines) {&#10;            return CheckResult.FALSE(&#10;                &quot;Expected to see &quot; + attach + &quot; mines, found &quot; + mines&#10;            );&#10;        }&#10;&#10;        int[] around = new int[] {-1, 0, 1};&#10;&#10;        for (int y = 0; y &lt; lines.size(); y++) {&#10;            String line = lines.get(y);&#10;            for (int x = 0; x &lt; line.length(); x++) {&#10;                char c = line.charAt(x);&#10;&#10;                if (c == 'X') {&#10;                    continue;&#10;                }&#10;&#10;                int minesAround = 0;&#10;&#10;                for (int dx : around) {&#10;                    for (int dy : around) {&#10;&#10;                        int newX = x + dx;&#10;                        int newY = y + dy;&#10;&#10;                        if (0 &lt;= newX &amp;&amp; newX &lt; 9 &amp;&amp;&#10;                            0 &lt;= newY &amp;&amp; newY &lt; 9) {&#10;&#10;                            char newC = lines.get(newY).charAt(newX);&#10;&#10;                            if (newC == 'X') {&#10;                                minesAround++;&#10;                            }&#10;                        }&#10;                    }&#10;                }&#10;&#10;                if (minesAround == 0 &amp;&amp; c != '.') {&#10;                    return CheckResult.FALSE(&#10;                        &quot;There are no mines around, but found number &quot; + c + &quot;.\n&quot; +&#10;                            &quot;In line &quot; + (y+1) + &quot;, symbol &quot; + (x+1) + &quot;.&quot;&#10;                    );&#10;                }&#10;&#10;                if (minesAround != 0 &amp;&amp; c != '0' + minesAround) {&#10;                    return CheckResult.FALSE(&#10;                        &quot;In this cell should be number &quot; + minesAround + &quot;, &quot; +&#10;                            &quot;but found symbol \&quot;&quot; + c + &quot;\&quot;.\n&quot; +&#10;                            &quot;In line &quot; + (y+1) + &quot;, symbol &quot; + (x+1) + &quot;.&quot;&#10;                    );&#10;                }&#10;&#10;            }&#10;        }&#10;&#10;        return CheckResult.TRUE;&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/minesweeper/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="src/minesweeper/Main.java" />
+                                <option name="text" value="package minesweeper;&#10;&#10;public class Main {&#10;    public static void main(String[] args) {&#10;        // write your code here&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/minesweeper/Mine.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="src/minesweeper/Mine.java" />
+                                <option name="text" value="package minesweeper;&#10;&#10;public class Mine {&#10;&#10;    private boolean isMine;&#10;//    private boolean hasBeenChecked;&#10;//    private int numberNearbyMines;&#10;&#10;    public void setAsMine() {&#10;        isMine = true;&#10;    }&#10;&#10;    public boolean isMine() {&#10;        return isMine;&#10;    }&#10;&#10;    @Override&#10;    public String toString() {&#10;        return isMine ? &quot;X&quot; : &quot;.&quot;;&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/minesweeper/Minefield.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="src/minesweeper/Minefield.java" />
+                                <option name="text" value="package minesweeper;&#10;&#10;import java.util.Random;&#10;&#10;public class Minefield {&#10;&#10;    private final int height;&#10;    private final int width;&#10;    private final int numMines;&#10;    private final Mine[][] field;&#10;&#10;    Minefield(int height, int width, int numMines) {&#10;        this.height = height;&#10;        this.width = width;&#10;        this.numMines = numMines;&#10;        field = new Mine[height][width];&#10;        for (int i = 0; i &lt; field.length; i++) {&#10;            for (int j = 0; j &lt; field[0].length; j++) {&#10;                field[i][j] = new Mine();&#10;            }&#10;        }&#10;    }&#10;&#10;    void generateMineSpots() {&#10;        Random random = new Random();&#10;        int minedSpots = 0;&#10;        while (minedSpots &lt; numMines) {&#10;            int heightToMine = random.nextInt(height);&#10;            int widthToMine = random.nextInt(width);&#10;            if (!field[heightToMine][widthToMine].isMine()) {&#10;                field[heightToMine][widthToMine].setAsMine();&#10;                minedSpots++;&#10;            }&#10;        }&#10;    }&#10;&#10;    void printField() {&#10;        for (int i = 0; i &lt; field.length; i++) {&#10;            for (int j = 0; j &lt; field[0].length; j++) {&#10;                System.out.print(field[i][j]);&#10;            }&#10;            System.out.println();&#10;        }&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1568629630000" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;h2 style=&quot;text-align: center;&quot;&gt;Description&lt;/h2&gt;&#10;&#10;&lt;p&gt;In this stage, you will create a simple game loop. After generating all the mines and filling the field with numbers that describe their positions, you are now ready to create a simple game loop. In this stage make it that all the numbers are already shown to the user. The user should only find all the mines on the field.&lt;/p&gt;&#10;&#10;&lt;p&gt;The game should contain the following steps:&lt;/p&gt;&#10;&#10;&lt;ol&gt;&#10;  &lt;li&gt;The game starts from the point where all the numbers are shown to the user, but not the positions of the mines.&lt;/li&gt;&#10;  &lt;li&gt;The user should enter two numbers.&lt;/li&gt;&#10;  &lt;li&gt;If the user enters the coordinates of an empty cell (without a number because cells with numbers are guaranteed to be free of mines), the program should set a special mark on this cell which means that the user thinks a mine is located there.&lt;/li&gt;&#10;  &lt;li&gt;If the user enters the coordinates of a cell with a number, the program should ask the user again and don't print the field.&lt;/li&gt;&#10;  &lt;li&gt;If the user enters the coordinates where a special mark is located, the program should remove the mark. This is necessary because the user can place marks anywhere except for cells with numbers, but the game ends only if all the marks are correct.&lt;/li&gt;&#10;  &lt;li&gt;When the user marks all the mines without marking any empty cells, the game ends.&lt;/li&gt;&#10;&lt;/ol&gt;&#10;&#10;&lt;p&gt;To enter the positions of the mines, the user should see the coordinates. You should print the coordinates grid like in the example.&lt;/p&gt;&#10;&#10;&lt;h2 style=&quot;text-align: center;&quot;&gt;Examples&lt;/h2&gt;&#10;&#10;&lt;p&gt;&lt;strong&gt;Example 1&lt;/strong&gt;&lt;/p&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;How many mines do you want on the field? 5&#10;&#10; │123456789│&#10;—│—————————│&#10;1│.111.....│&#10;2│.1.1.....│&#10;3│.1221....│&#10;4│..1.1....│&#10;5│.1221....│&#10;6│.1.21....│&#10;7│.12.1....│&#10;8│..1221...│&#10;9│...1.1...│&#10;—│—————————│&#10;Set/delete mines marks (x and y coordinates): 2 1&#10;There is a number here!&#10;Set/delete mines marks (x and y coordinates): 3 2&#10;&#10; │123456789│&#10;—│—————————│&#10;1│.111.....│&#10;2│.1*1.....│&#10;3│.1221....│&#10;4│..1.1....│&#10;5│.1221....│&#10;6│.1.21....│&#10;7│.12.1....│&#10;8│..1221...│&#10;9│...1.1...│&#10;—│—————————│&#10;Set/delete mines marks (x and y coordinates): 4 4&#10;&#10; │123456789│&#10;—│—————————│&#10;1│.111.....│&#10;2│.1*1.....│&#10;3│.1221....│&#10;4│..1*1....│&#10;5│.1221....│&#10;6│.1.21....│&#10;7│.12.1....│&#10;8│..1221...│&#10;9│...1.1...│&#10;—│—————————│&#10;Set/delete mines marks (x and y coordinates): 3 6&#10;&#10; │123456789│&#10;—│—————————│&#10;1│.111.....│&#10;2│.1*1.....│&#10;3│.1221....│&#10;4│..1*1....│&#10;5│.1221....│&#10;6│.1*21....│&#10;7│.12.1....│&#10;8│..1221...│&#10;9│...1.1...│&#10;—│—————————│&#10;Set/delete mines marks (x and y coordinates): 4 7&#10;&#10; │123456789│&#10;—│—————————│&#10;1│.111.....│&#10;2│.1*1.....│&#10;3│.1221....│&#10;4│..1*1....│&#10;5│.1221....│&#10;6│.1*21....│&#10;7│.12*1....│&#10;8│..1221...│&#10;9│...1.1...│&#10;—│—————————│&#10;Set/delete mines marks (x and y coordinates): 5 9&#10;&#10; │123456789│&#10;—│—————————│&#10;1│.111.....│&#10;2│.1*1.....│&#10;3│.1221....│&#10;4│..1*1....│&#10;5│.1221....│&#10;6│.1*21....│&#10;7│.12*1....│&#10;8│..1221...│&#10;9│...1*1...│&#10;—│—————————│&#10;Congratulations! You founded all mines!&lt;/code&gt;&lt;/pre&gt;&#10;&#10;&lt;p&gt;&lt;strong&gt;Example 2&lt;/strong&gt;&lt;/p&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;How many mines do you want on the field? 1&#10;&#10; │123456789│&#10;—│—————————│&#10;1│.........│&#10;2│.........│&#10;3│.........│&#10;4│....111..│&#10;5│....1.1..│&#10;6│....111..│&#10;7│.........│&#10;8│.........│&#10;9│.........│&#10;—│—————————│&#10;Set/delete mines marks (x and y coordinates): 1 1&#10;&#10; │123456789│&#10;—│—————————│&#10;1│*........│&#10;2│.........│&#10;3│.........│&#10;4│....111..│&#10;5│....1.1..│&#10;6│....111..│&#10;7│.........│&#10;8│.........│&#10;9│.........│&#10;—│—————————│&#10;Set/delete mines marks (x and y coordinates): 6 5&#10;&#10; │123456789│&#10;—│—————————│&#10;1│*........│&#10;2│.........│&#10;3│.........│&#10;4│....111..│&#10;5│....1*1..│&#10;6│....111..│&#10;7│.........│&#10;8│.........│&#10;9│.........│&#10;—│—————————│&#10;Set/delete mines marks (x and y coordinates): 1 1&#10;&#10; │123456789│&#10;—│—————————│&#10;1│.........│&#10;2│.........│&#10;3│.........│&#10;4│....111..│&#10;5│....1*1..│&#10;6│....111..│&#10;7│.........│&#10;8│.........│&#10;9│.........│&#10;—│—————————│&#10;Congratulations! You founded all mines!&lt;/code&gt;&lt;/pre&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/projects/77/stages/429/implement" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="7203" />
+                      <option name="index" value="4" />
+                      <option name="name" value="Prepare for battle" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="files">
+                        <map>
+                          <entry key="test/MinesweeperTest.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/MinesweeperTest.java" />
+                                <option name="text" value="import minesweeper.Main;&#10;import org.hyperskill.hstest.dev.dynamic.output.SystemOutHandler;&#10;import org.hyperskill.hstest.dev.stage.BaseStageTest;&#10;import org.hyperskill.hstest.dev.testcase.CheckResult;&#10;import org.hyperskill.hstest.dev.testcase.TestCase;&#10;&#10;import java.util.*;&#10;&#10;import static java.lang.Math.abs;&#10;&#10;class Grid {&#10;&#10;    char[][] rows;&#10;    Grid(String[] rows) throws Exception {&#10;        this.rows = new char[rows.length][];&#10;        for (int i = 0; i &lt; rows.length; i++) {&#10;            this.rows[i] = rows[i].toCharArray();&#10;            for (char c : this.rows[i]) {&#10;                if (c != '.' &amp;&amp; c != '*' &amp;&amp; !(c &gt;= '0' &amp;&amp; c &lt;= '9')) {&#10;                    throw new Exception(&#10;                        &quot;A row of the grid should contain '.' or '*' or numbers. \n&quot; +&#10;                            &quot;Found: '&quot; + c + &quot;' in row \&quot;&quot; + rows[i] + &quot;\&quot;&quot;&#10;                    );&#10;                }&#10;            }&#10;        }&#10;    }&#10;&#10;    @Override&#10;    public String toString() {&#10;        String res = &quot;&quot;;&#10;        for (int i = 0; i &lt; this.rows.length; i++) {&#10;            res += new String(this.rows[i]) + &quot;\n&quot;;&#10;        }&#10;        return res.trim();&#10;    }&#10;&#10;    int count(char c) {&#10;        int sum = 0;&#10;        for (char[] row : rows) {&#10;            for (char ch : row) {&#10;                sum += ch == c ? 1 : 0;&#10;            }&#10;        }&#10;        return sum;&#10;    }&#10;&#10;    int countAround(int x, int y, char c) {&#10;        int[] around = new int[] {-1, 0, 1};&#10;        int count = 0;&#10;        for (int dx : around) {&#10;            for (int dy : around) {&#10;&#10;                int newX = x + dx;&#10;                int newY = y + dy;&#10;&#10;                if (1 &lt;= newX &amp;&amp; newX &lt;= 9 &amp;&amp;&#10;                    1 &lt;= newY &amp;&amp; newY &lt;= 9) {&#10;                    if (get(newX, newY) == c) {&#10;                        count++;&#10;                    }&#10;                }&#10;            }&#10;        }&#10;        return count;&#10;    }&#10;&#10;    int distanceToCenter(int x, int y) {&#10;        return abs(x - 5) + abs(y - 5);&#10;    }&#10;&#10;    void replaceAround(int x, int y, char from, char to) {&#10;        int[] around = new int[] {-1, 0, 1};&#10;        int count = 0;&#10;        for (int dx : around) {&#10;            for (int dy : around) {&#10;&#10;                int newX = x + dx;&#10;                int newY = y + dy;&#10;&#10;                if (1 &lt;= newX &amp;&amp; newX &lt;= 9 &amp;&amp;&#10;                    1 &lt;= newY &amp;&amp; newY &lt;= 9) {&#10;                    if (get(newX, newY) == from) {&#10;                        set(newX, newY, to);&#10;                    }&#10;                }&#10;            }&#10;        }&#10;    }&#10;&#10;    void markImpossibles() {&#10;        for (int x = 1; x &lt;= 9; x++) {&#10;            for (int y = 1; y &lt;= 9; y++) {&#10;                char curr = get(x, y);&#10;                if (curr &gt;= '1' &amp;&amp; curr &lt;= '9') {&#10;                    int num = curr - '0';&#10;                    int minesAround = countAround(x, y, '*');&#10;                    if (num == minesAround) {&#10;                        replaceAround(x, y, '.', 'X');&#10;                    }&#10;                }&#10;            }&#10;        }&#10;    }&#10;&#10;    char get(int x, int y) {&#10;        return rows[y-1][x-1];&#10;    }&#10;&#10;    void set(int x, int y, char c) {&#10;        rows[y-1][x-1] = c;&#10;    }&#10;&#10;    Grid copy() {&#10;        String[] rows = new String[this.rows.length];&#10;        for (int i = 0; i &lt; this.rows.length; i++) {&#10;            rows[i] = new String(this.rows[i]);&#10;        }&#10;        try {&#10;            return new Grid(rows);&#10;        } catch (Exception ex) {&#10;            return null;&#10;        }&#10;    }&#10;&#10;    int differences(Grid other) {&#10;        int diff = 0;&#10;        for (int x = 1; x &lt;= 9; x++) {&#10;            for (int y = 1; y &lt;= 9; y++) {&#10;                diff += get(x, y) != other.get(x, y) ? 1 : 0;&#10;            }&#10;        }&#10;        return diff;&#10;    }&#10;&#10;    static List&lt;Grid&gt; parse(String output) throws Exception {&#10;&#10;        output = output.replaceAll(&quot;│&quot;, &quot;|&quot;);&#10;        output = output.replaceAll(&quot;—&quot;, &quot;-&quot;);&#10;&#10;        List&lt;Grid&gt; grids = new LinkedList&lt;&gt;();&#10;        String[] lines = output.split(&quot;\n&quot;);&#10;&#10;        boolean gridStarted = false;&#10;        List&lt;String&gt; newGrid = new LinkedList&lt;&gt;();&#10;        for (String line : lines) {&#10;            line = line.trim();&#10;            if (line.contains(&quot;-|--&quot;)) {&#10;                gridStarted = !gridStarted;&#10;                if (gridStarted) {&#10;                    newGrid = new LinkedList&lt;&gt;();&#10;                } else {&#10;                    if (newGrid.size() != 9) {&#10;                        throw new Exception(&#10;                            &quot;Found grid that contains &quot; + newGrid.size() +&#10;                                &quot; but grid should contain 9 lines. \n&quot; +&#10;                                &quot;The tests assume that the grid is &quot; +&#10;                                &quot;between the lines containing the line \&quot;-│--\&quot;.&quot;&#10;                        );&#10;                    }&#10;                    grids.add(&#10;                        new Grid(newGrid.toArray(new String[0]))&#10;                    );&#10;                }&#10;                continue;&#10;            }&#10;            if (gridStarted) {&#10;&#10;                char toFind = '|';&#10;&#10;                long countBrackets =&#10;                    line.chars().filter(c -&gt; c == toFind).count();&#10;&#10;                if (countBrackets != 2) {&#10;                    throw new Exception(&#10;                        &quot;Grid should contain &quot; +&#10;                            &quot;two '|' symbols, at the beginning &quot; +&#10;                            &quot;(after row number) &quot; +&#10;                            &quot;and at the end of the row. \n&quot; +&#10;                            &quot;Your line: \&quot;&quot; + line + &quot;\&quot;.&quot;&#10;                    );&#10;                }&#10;&#10;                int first = line.indexOf(toFind) + 1;&#10;                int second = line.indexOf(toFind, first);&#10;&#10;                int rowSize = second - first;&#10;&#10;                if (rowSize != 9) {&#10;                    throw new Exception(&#10;                        &quot;Every row of the grid should contain &quot; +&#10;                            &quot;9 symbols between '|' chars. \nThis line has &quot; +&#10;                            rowSize + &quot; symbols: \&quot;&quot; + line + &quot;\&quot;.&quot;&#10;                    );&#10;                }&#10;&#10;                String row = line.substring(first, second);&#10;&#10;                newGrid.add(row);&#10;            }&#10;        }&#10;&#10;        return grids;&#10;    }&#10;&#10;}&#10;&#10;class State {&#10;    int xStar;&#10;    int yStar;&#10;    Grid first;&#10;    int starCount = 0;&#10;}&#10;&#10;public class MinesweeperTest extends BaseStageTest&lt;Integer&gt; {&#10;&#10;    public MinesweeperTest() {&#10;        super(Main.class);&#10;    }&#10;&#10;    @Override&#10;    public List&lt;TestCase&lt;Integer&gt;&gt; generate() {&#10;        List&lt;TestCase&lt;Integer&gt;&gt; tests = new ArrayList&lt;&gt;();&#10;&#10;        State state = new State();&#10;&#10;        TestCase&lt;Integer&gt; test = new TestCase&lt;Integer&gt;()&#10;            .addInput(&quot;1&quot;)&#10;            .addInput(out -&gt; {&#10;                out = out.trim();&#10;&#10;                List&lt;Grid&gt; grids;&#10;                try {&#10;                    grids = Grid.parse(out);&#10;                } catch (Exception ex) {&#10;                    return CheckResult.FALSE(ex.getMessage());&#10;                }&#10;&#10;                if (grids.size() != 1) {&#10;                    return CheckResult.FALSE(&#10;                        &quot;Expected to see one grid after printing the number of mines. &quot; +&#10;                            &quot;Found: &quot; + grids.size() + &quot; grids.&quot;&#10;                    );&#10;                }&#10;&#10;                Grid grid = grids.get(0);&#10;                int starCount = grid.count('*');&#10;&#10;                if (starCount != 0) {&#10;                    return CheckResult.FALSE(&#10;                        &quot;There should be no '*' symbols in the &quot; +&#10;                            &quot;initial grid showdown. Found: &quot; + starCount&#10;                    );&#10;                }&#10;&#10;                int onesCount = grid.count('1');&#10;&#10;                if (onesCount != 3 &amp;&amp; onesCount != 5 &amp;&amp; onesCount != 8) {&#10;                    return CheckResult.FALSE(&#10;                        &quot;If there is one mine the grid should show 3, 5 or 8 '1' symbols. &quot; +&#10;                            &quot;Found: &quot; + onesCount&#10;                    );&#10;                }&#10;&#10;                int dotsCount = 9 * 9 - onesCount;&#10;                int realDotsCount = grid.count('.');&#10;&#10;                if (realDotsCount != dotsCount) {&#10;                    return CheckResult.FALSE(&#10;                        &quot;There should be &quot; + dotsCount + &quot; '.' symbols in the grid. &quot; +&#10;                            &quot;Found: &quot; + realDotsCount&#10;                    );&#10;                }&#10;&#10;                for (int x = 1; x &lt;= 9; x++) {&#10;                    for (int y = 1; y &lt;= 9; y++) {&#10;                        if (x == y) {&#10;                            continue;&#10;                        }&#10;                        if (grid.get(x, y) == '.') {&#10;                            state.xStar = x;&#10;                            state.yStar = y;&#10;                            state.first = grid;&#10;                            return x + &quot; &quot; + y;&#10;                        }&#10;                    }&#10;                }&#10;                return null;&#10;            })&#10;            .addInput(out -&gt; {&#10;                out = out.trim();&#10;&#10;                if (out.toLowerCase().contains(&quot;congratulations&quot;)) {&#10;                    return CheckResult.TRUE;&#10;                }&#10;&#10;                List&lt;Grid&gt; grids;&#10;                try {&#10;                    grids = Grid.parse(out);&#10;                } catch (Exception ex) {&#10;                    return CheckResult.FALSE(ex.getMessage());&#10;                }&#10;&#10;                if (grids.size() != 1) {&#10;                    return CheckResult.FALSE(&#10;                        &quot;Expected to see one grid after printing the coordinates. &quot; +&#10;                            &quot;Found: &quot; + grids.size() + &quot; grids.&quot;&#10;                    );&#10;                }&#10;&#10;                Grid grid = grids.get(0);&#10;                int starCount = grid.count('*');&#10;&#10;                if (starCount != 1) {&#10;                    return CheckResult.FALSE(&#10;                        &quot;There should be one '*' symbol in the &quot; +&#10;                            &quot;grid after printing the coordinates. Found: &quot; + starCount&#10;                    );&#10;                }&#10;&#10;                char checkStar = grid.get(state.xStar, state.yStar);&#10;                if (checkStar != '*') {&#10;                    return CheckResult.FALSE(&#10;                        &quot;There should be '*' symbol in the coordinates &quot; +&#10;                            state.xStar + &quot; &quot; + state.yStar + &quot; but found \'&quot; + checkStar + &quot;\'&quot;&#10;                    );&#10;                }&#10;&#10;                int difference = grid.differences(state.first);&#10;&#10;                if (difference != 1) {&#10;                    return CheckResult.FALSE(&#10;                        &quot;The first and second grid must match except &quot; +&#10;                            &quot;for one *' character. &quot; +&#10;                            &quot;There are &quot; + difference + &quot; differences between the grids.&quot;&#10;                    );&#10;                }&#10;&#10;                return state.xStar + &quot; &quot; + state.yStar;&#10;            })&#10;            .addInput(out -&gt; {&#10;                out = out.trim();&#10;&#10;                List&lt;Grid&gt; grids;&#10;                try {&#10;                    grids = Grid.parse(out);&#10;                } catch (Exception ex) {&#10;                    return CheckResult.FALSE(ex.getMessage());&#10;                }&#10;&#10;                if (grids.size() != 1) {&#10;                    return CheckResult.FALSE(&#10;                        &quot;Expected to see one grid after printing the coordinates. &quot; +&#10;                            &quot;Found: &quot; + grids.size() + &quot; grids.&quot;&#10;                    );&#10;                }&#10;&#10;                Grid grid = grids.get(0);&#10;&#10;                int starCount = grid.count('*');&#10;&#10;                if (starCount != 0) {&#10;                    return CheckResult.FALSE(&#10;                        &quot;There should be no '*' symbols in the &quot; +&#10;                            &quot;grid after printing the coordinates twice. Found: &quot; + starCount&#10;                    );&#10;                }&#10;&#10;                int difference = grid.differences(state.first);&#10;&#10;                if (difference != 0) {&#10;                    return CheckResult.FALSE(&#10;                        &quot;The first and third grid must match after printing &quot; +&#10;                            &quot;the coordinates twice. &quot; +&#10;                            &quot;There are &quot; + difference + &quot; differences between the grids.&quot;&#10;                    );&#10;                }&#10;&#10;                int potentialX = 0;&#10;                int potentialY = 0;&#10;                int maxOnesAround = 0;&#10;                for (int x = 1; x &lt;= 9; x++) {&#10;                    for (int y = 1; y &lt;= 9; y++) {&#10;                        int onesAround = 0;&#10;                        if (grid.get(x, y) == '.') {&#10;                            onesAround = grid.countAround(x, y, '1');&#10;                        }&#10;                        if (onesAround &gt; maxOnesAround) {&#10;                            maxOnesAround = onesAround;&#10;                            potentialX = x;&#10;                            potentialY = y;&#10;                        }&#10;                    }&#10;                }&#10;&#10;                return potentialX + &quot; &quot; + potentialY;&#10;            });&#10;&#10;        for (int i = 0; i &lt; 10; i++) {&#10;            tests.add(test);&#10;        }&#10;&#10;        for (int i = 0; i &lt; 3; i++) {&#10;            State state2 = new State();&#10;            tests.add(new TestCase&lt;Integer&gt;()&#10;                .addInput(&quot;5&quot;)&#10;                .addInput(5, out -&gt; {&#10;                    out = out.trim();&#10;&#10;                    List&lt;Grid&gt; grids;&#10;                    try {&#10;                        grids = Grid.parse(out);&#10;                    } catch (Exception ex) {&#10;                        return CheckResult.FALSE(ex.getMessage());&#10;                    }&#10;&#10;                    Grid grid = grids.get(0);&#10;                    int starCount = grid.count('*');&#10;&#10;                    if (starCount != state2.starCount) {&#10;                        return CheckResult.FALSE(&#10;                            &quot;There should be &quot; + state2.starCount + &quot; '*' symbols in the &quot; +&#10;                                &quot;grid. Found: &quot; + starCount&#10;                        );&#10;                    }&#10;&#10;                    if (state2.first == null) {&#10;                        state2.first = grid;&#10;                    }&#10;&#10;                    int potentialX = 0;&#10;                    int potentialY = 0;&#10;                    int maxNumsAround = 0;&#10;                    int maxDistToCenter = 0;&#10;                    for (int x = 1; x &lt;= 9; x++) {&#10;                        for (int y = 1; y &lt;= 9; y++) {&#10;                            int numsAround = 0;&#10;                            if (state2.first.get(x, y) == '.') {&#10;                                for (char c = '1'; c &lt;= '9'; c++) {&#10;                                    numsAround += state2.first.countAround(x, y, c);&#10;                                }&#10;                            }&#10;&#10;                            boolean needUpdate = numsAround &gt; maxNumsAround;&#10;                            if (numsAround == maxNumsAround) {&#10;                                int currDistToCenter =&#10;                                    state2.first.distanceToCenter(x, y);&#10;                                needUpdate |= currDistToCenter &gt; maxDistToCenter;&#10;                            }&#10;&#10;                            if (needUpdate) {&#10;                                maxNumsAround = numsAround;&#10;                                potentialX = x;&#10;                                potentialY = y;&#10;                                maxDistToCenter =&#10;                                    state2.first.distanceToCenter(x, y);&#10;                            }&#10;                        }&#10;                    }&#10;&#10;                    state2.starCount++;&#10;                    state2.first.set(potentialX, potentialY, '*');&#10;                    state2.first.markImpossibles();&#10;                    return potentialX + &quot; &quot; + potentialY;&#10;                })&#10;                .addInput(out -&gt; {&#10;                    return CheckResult.FALSE(&#10;                        &quot;Solver can't solve your grid with 5 mines. &quot; +&#10;                            &quot;Maybe your program shows wrong numbers? &quot; +&#10;                            &quot;But solver misses 1% of the time, so it is worth trying &quot; +&#10;                            &quot;to test one more time.&quot;&#10;                    );&#10;                })&#10;            );&#10;        }&#10;&#10;        return tests;&#10;    }&#10;&#10;    @Override&#10;    public CheckResult check(String reply, Integer attach) {&#10;&#10;        String outputSinceLastInput = SystemOutHandler.getDynamicOutput()&#10;            .trim().toLowerCase();&#10;&#10;        if (outputSinceLastInput.contains(&quot;congratulations&quot;)) {&#10;            return CheckResult.TRUE;&#10;        }&#10;&#10;        return CheckResult.FALSE(&quot;After guessing right there should be &quot; +&#10;            &quot;\&quot;Congratulations\&quot; word printed.&quot;);&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/minesweeper/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="src/minesweeper/Main.java" />
+                                <option name="text" value="package minesweeper;&#10;&#10;public class Main {&#10;    public static void main(String[] args) {&#10;        // write your code here&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1568629633000" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;h2 style=&quot;text-align: center;&quot;&gt;Description&lt;/h2&gt;&#10;&#10;&lt;p&gt;In this step, you will upgrade your program to act as a real game.&lt;/p&gt;&#10;&#10;&lt;p&gt;The game should contain the following rules:&lt;/p&gt;&#10;&#10;&lt;ol&gt;&#10;  &lt;li&gt;The game starts with an empty field.&lt;/li&gt;&#10;  &lt;li&gt;The user can mark (flag) some cells as cells that potentially have a mine. Any empty cell can be flagged, not only cells that really contain a mine. In the example, this is done by typing the word &quot;mine&quot; after entering the coordinates. After that, the cell is marked with a '*' (a mine flag).&lt;/li&gt;&#10;  &lt;li&gt;The user can also remove mine flags from cells. In the example, the user simply types 'mine' again after entering the same coordinates of the cell. After that, the cell should be marked as an empty cell.&lt;/li&gt;&#10;  &lt;li&gt;The only way to get information about the field is to explore it. In the example, this is done by typing 'free' after entering the coordinates of the cell. This means that the user thinks that this cell is free of mines and thus can be explored. Make the generation of mines as in the original game - the first cell marked as &quot;free&quot; cannot be a mine, it should always be an empty field. You can achieve this in many ways, it's up to you.&lt;/li&gt;&#10;  &lt;li&gt;Obviously, if a cell has 0 mines around it, you can explore all the cells around it without any problems. Therefore this should be done automatically by the program. Also, if there is yet another cell next to it with 0 mines around it, the program should automatically check all the cells around that cell, and so on until no cells can be checked automatically. In the example, all cells with 0 mines around them are marked with a '/' symbol.&lt;/li&gt;&#10;  &lt;li&gt;If the user wants to explore a cell with 1 to 8 mines around it, the program should only expose that cell, because mines could be anywhere.&lt;/li&gt;&#10;  &lt;li&gt;If the user wants to explore a cell that contains a mine, the user loses. After that, you can show all the mines on the field. This situation is shown in the first example.&lt;/li&gt;&#10;  &lt;li&gt;If the user marks all the cells with potential mines, the user wins. Note that the user must mark all the mines, but no empty cells; if the user has extra mine flags that do not contain mines, the user should continue playing. After clearing all excess mine flags, he user wins. This situation is presented in the second example.&lt;/li&gt;&#10;  &lt;li&gt;There is another way to win. The user can simply explore all explorable cells, leaving only cells with mines. After that, the user wins. This situation is presented in the third example.&lt;/li&gt;&#10;&lt;/ol&gt;&#10;&#10;&lt;p&gt;Make sure your program follows these rules.&lt;/p&gt;&#10;&#10;&lt;h2 style=&quot;text-align: center;&quot;&gt;Examples&lt;/h2&gt;&#10;&#10;&lt;p&gt;&lt;strong&gt;Example 1&lt;/strong&gt;&lt;/p&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;How many mines do you want on the field? 10&#10;&#10; │123456789│&#10;—│—————————│&#10;1│.........│&#10;2│.........│&#10;3│.........│&#10;4│.........│&#10;5│.........│&#10;6│.........│&#10;7│.........│&#10;8│.........│&#10;9│.........│&#10;—│—————————│&#10;Set/unset mines marks or claim a cell as free: 3 2 free&#10;&#10; │123456789│&#10;—│—————————│&#10;1│.1///1...│&#10;2│.1//12...│&#10;3│11//1....│&#10;4│////1....│&#10;5│11111....│&#10;6│.........│&#10;7│.........│&#10;8│.........│&#10;9│.........│&#10;—│—————————│&#10;Set/unset mines marks or claim a cell as free: 1 1 free&#10;&#10; │123456789│&#10;—│—————————│&#10;1│11///1...│&#10;2│.1//12...│&#10;3│11//1....│&#10;4│////1....│&#10;5│11111....│&#10;6│.........│&#10;7│.........│&#10;8│.........│&#10;9│.........│&#10;—│—————————│&#10;Set/unset mines marks or claim a cell as free: 1 2 mine&#10;&#10; │123456789│&#10;—│—————————│&#10;1│11///1...│&#10;2│*1//12...│&#10;3│11//1....│&#10;4│////1....│&#10;5│11111....│&#10;6│.........│&#10;7│.........│&#10;8│.........│&#10;9│.........│&#10;—│—————————│&#10;Set/unset mines marks or claim a cell as free: 8 8 free&#10;&#10; │123456789│&#10;—│—————————│&#10;1│11///1...│&#10;2│*1//12...│&#10;3│11//1....│&#10;4│////1....│&#10;5│11111....│&#10;6│.........│&#10;7│.........│&#10;8│.......1.│&#10;9│.........│&#10;—│—————————│&#10;Set/unset mines marks or claim a cell as free: 7 8 free&#10;&#10; │123456789│&#10;—│—————————│&#10;1│11///1...│&#10;2│*1//12...│&#10;3│11//1....│&#10;4│////1....│&#10;5│11111....│&#10;6│.........│&#10;7│.........│&#10;8│......11.│&#10;9│.........│&#10;—│—————————│&#10;Set/unset mines marks or claim a cell as free: 6 8 free&#10;&#10; │123456789│&#10;—│—————————│&#10;1│11///1...│&#10;2│*1//12...│&#10;3│11//1....│&#10;4│////1....│&#10;5│11111....│&#10;6│.........│&#10;7│.........│&#10;8│.....211.│&#10;9│.........│&#10;—│—————————│&#10;Set/unset mines marks or claim a cell as free: 2 7 free&#10;&#10; │123456789│&#10;—│—————————│&#10;1│11///1...│&#10;2│*1//12...│&#10;3│11//1....│&#10;4│////1....│&#10;5│11111....│&#10;6│.........│&#10;7│.3.......│&#10;8│.....211.│&#10;9│.........│&#10;—│—————————│&#10;Set/unset mines marks or claim a cell as free: 5 6 free&#10;&#10; │123456789│&#10;—│—————————│&#10;1│11///1X..│&#10;2│X1//12...│&#10;3│11//1X...│&#10;4│////1....│&#10;5│11111....│&#10;6│.X..X....│&#10;7│.3X...X..│&#10;8│.X..X211.│&#10;9│...X.....│&#10;—│—————————│&#10;You stepped on a mine and failed!&lt;/code&gt;&lt;/pre&gt;&#10;&#10;&lt;p&gt;&lt;strong&gt;Example 2&lt;/strong&gt;&lt;/p&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;How many mines do you want on the field? 8&#10;&#10; │123456789│&#10;—│—————————│&#10;1│.........│&#10;2│.........│&#10;3│.........│&#10;4│.........│&#10;5│.........│&#10;6│.........│&#10;7│.........│&#10;8│.........│&#10;9│.........│&#10;—│—————————│&#10;Set/unset mines marks or claim a cell as free: 5 5 free&#10;&#10; │123456789│&#10;—│—————————│&#10;1│..1//1...│&#10;2│111//2...│&#10;3│/////1...│&#10;4│/////11..│&#10;5│//////1..│&#10;6│/111//1..│&#10;7│23.1//111│&#10;8│..21/////│&#10;9│..1//////│&#10;—│—————————│&#10;Set/unset mines marks or claim a cell as free: 2 1 mine&#10;&#10; │123456789│&#10;—│—————————│&#10;1│.*1//1...│&#10;2│111//2...│&#10;3│/////1...│&#10;4│/////11..│&#10;5│//////1..│&#10;6│/111//1..│&#10;7│23.1//111│&#10;8│..21/////│&#10;9│..1//////│&#10;—│—————————│&#10;Set/unset mines marks or claim a cell as free: 3 7 mine&#10;&#10; │123456789│&#10;—│—————————│&#10;1│.*1//1...│&#10;2│111//2...│&#10;3│/////1...│&#10;4│/////11..│&#10;5│//////1..│&#10;6│/111//1..│&#10;7│23*1//111│&#10;8│..21/////│&#10;9│..1//////│&#10;—│—————————│&#10;Set/unset mines marks or claim a cell as free: 2 8 mine&#10;&#10; │123456789│&#10;—│—————————│&#10;1│.*1//1...│&#10;2│111//2...│&#10;3│/////1...│&#10;4│/////11..│&#10;5│//////1..│&#10;6│/111//1..│&#10;7│23*1//111│&#10;8│.*21/////│&#10;9│..1//////│&#10;—│—————————│&#10;Set/unset mines marks or claim a cell as free: 1 8 mine&#10;&#10; │123456789│&#10;—│—————————│&#10;1│.*1//1...│&#10;2│111//2...│&#10;3│/////1...│&#10;4│/////11..│&#10;5│//////1..│&#10;6│/111//1..│&#10;7│23*1//111│&#10;8│**21/////│&#10;9│..1//////│&#10;—│—————————│&#10;Set/unset mines marks or claim a cell as free: 7 3 mine&#10;&#10; │123456789│&#10;—│—————————│&#10;1│.*1//1...│&#10;2│111//2...│&#10;3│/////1*..│&#10;4│/////11..│&#10;5│//////1..│&#10;6│/111//1..│&#10;7│23*1//111│&#10;8│**21/////│&#10;9│..1//////│&#10;—│—————————│&#10;Set/unset mines marks or claim a cell as free: 8 3 free&#10;&#10; │123456789│&#10;—│—————————│&#10;1│.*1//1...│&#10;2│111//2...│&#10;3│/////1*1.│&#10;4│/////11..│&#10;5│//////1..│&#10;6│/111//1..│&#10;7│23*1//111│&#10;8│**21/////│&#10;9│..1//////│&#10;—│—————————│&#10;Set/unset mines marks or claim a cell as free: 9 3 free&#10;&#10; │123456789│&#10;—│—————————│&#10;1│.*1//1...│&#10;2│111//2.31│&#10;3│/////1*1/│&#10;4│/////111/│&#10;5│//////111│&#10;6│/111//1..│&#10;7│23*1//111│&#10;8│**21/////│&#10;9│..1//////│&#10;—│—————————│&#10;Set/unset mines marks or claim a cell as free: 8 6 mine&#10;&#10; │123456789│&#10;—│—————————│&#10;1│.*1//1...│&#10;2│111//2.31│&#10;3│/////1*1/│&#10;4│/////111/│&#10;5│//////111│&#10;6│/111//1*.│&#10;7│23*1//111│&#10;8│**21/////│&#10;9│..1//////│&#10;—│—————————│&#10;Set/unset mines marks or claim a cell as free: 7 2 free&#10;&#10; │123456789│&#10;—│—————————│&#10;1│.*1//1...│&#10;2│111//2231│&#10;3│/////1*1/│&#10;4│/////111/│&#10;5│//////111│&#10;6│/111//1*.│&#10;7│23*1//111│&#10;8│**21/////│&#10;9│..1//////│&#10;—│—————————│&#10;Set/unset mines marks or claim a cell as free: 7 1 mine&#10;&#10; │123456789│&#10;—│—————————│&#10;1│.*1//1*..│&#10;2│111//2231│&#10;3│/////1*1/│&#10;4│/////111/│&#10;5│//////111│&#10;6│/111//1*.│&#10;7│23*1//111│&#10;8│**21/////│&#10;9│..1//////│&#10;—│—————————│&#10;Set/unset mines marks or claim a cell as free: 9 1 mine&#10;&#10; │123456789│&#10;—│—————————│&#10;1│.*1//1*.*│&#10;2│111//2231│&#10;3│/////1*1/│&#10;4│/////111/│&#10;5│//////111│&#10;6│/111//1*.│&#10;7│23*1//111│&#10;8│**21/////│&#10;9│..1//////│&#10;—│—————————│&#10;Congratulations! You founded all mines!&lt;/code&gt;&lt;/pre&gt;&#10;&#10;&lt;p&gt;&lt;strong&gt;Example 3&lt;/strong&gt;&lt;/p&gt;&#10;&#10;&lt;pre&gt;&lt;code class=&quot;language-no-highlight&quot;&gt;How many mines do you want on the field? 5&#10;&#10; │123456789│&#10;—│—————————│&#10;1│.........│&#10;2│.........│&#10;3│.........│&#10;4│.........│&#10;5│.........│&#10;6│.........│&#10;7│.........│&#10;8│.........│&#10;9│.........│&#10;—│—————————│&#10;Set/unset mines marks or claim a cell as free: 5 5 free&#10;&#10; │123456789│&#10;—│—————————│&#10;1│/////////│&#10;2│/////111/│&#10;3│111//1.1/│&#10;4│..1//1.21│&#10;5│111//1...│&#10;6│/////1.21│&#10;7│/////111/│&#10;8│111//////│&#10;9│..1//////│&#10;—│—————————│&#10;Set/unset mines marks or claim a cell as free: 1 9 free&#10;&#10; │123456789│&#10;—│—————————│&#10;1│/////////│&#10;2│/////111/│&#10;3│111//1.1/│&#10;4│..1//1.21│&#10;5│111//1...│&#10;6│/////1.21│&#10;7│/////111/│&#10;8│111//////│&#10;9│1.1//////│&#10;—│—————————│&#10;Set/unset mines marks or claim a cell as free: 1 4 free&#10;&#10; │123456789│&#10;—│—————————│&#10;1│/////////│&#10;2│/////111/│&#10;3│111//1.1/│&#10;4│1.1//1.21│&#10;5│111//1...│&#10;6│/////1.21│&#10;7│/////111/│&#10;8│111//////│&#10;9│1.1//////│&#10;—│—————————│&#10;Set/unset mines marks or claim a cell as free: 7 4 free&#10;&#10; │123456789│&#10;—│—————————│&#10;1│/////////│&#10;2│/////111/│&#10;3│111//1.1/│&#10;4│1.1//1121│&#10;5│111//1...│&#10;6│/////1.21│&#10;7│/////111/│&#10;8│111//////│&#10;9│1.1//////│&#10;—│—————————│&#10;Set/unset mines marks or claim a cell as free: 7 5 free&#10;&#10; │123456789│&#10;—│—————————│&#10;1│/////////│&#10;2│/////111/│&#10;3│111//1.1/│&#10;4│1.1//1121│&#10;5│111//11..│&#10;6│/////1.21│&#10;7│/////111/│&#10;8│111//////│&#10;9│1.1//////│&#10;—│—————————│&#10;Set/unset mines marks or claim a cell as free: 8 5 free&#10;&#10; │123456789│&#10;—│—————————│&#10;1│/////////│&#10;2│/////111/│&#10;3│111//1.1/│&#10;4│1.1//1121│&#10;5│111//112.│&#10;6│/////1.21│&#10;7│/////111/│&#10;8│111//////│&#10;9│1.1//////│&#10;—│—————————│&#10;Congratulations! You founded all mines!&lt;/code&gt;&lt;/pre&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://hyperskill.org/projects/77/stages/430/implement" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="id" value="7204" />
+                      <option name="index" value="5" />
+                      <option name="name" value="Battle!" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="files">
+                        <map>
+                          <entry key="test/MinesweeperTest.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/MinesweeperTest.java" />
+                                <option name="text" value="import minesweeper.Main;&#10;import org.hyperskill.hstest.dev.dynamic.output.SystemOutHandler;&#10;import org.hyperskill.hstest.dev.stage.BaseStageTest;&#10;import org.hyperskill.hstest.dev.testcase.CheckResult;&#10;import org.hyperskill.hstest.dev.testcase.TestCase;&#10;&#10;import java.util.*;&#10;&#10;import static java.lang.Math.abs;&#10;&#10;class Grid {&#10;&#10;    char[][] rows;&#10;    Grid(String[] rows) throws Exception {&#10;        this.rows = new char[rows.length][];&#10;        for (int i = 0; i &lt; rows.length; i++) {&#10;            this.rows[i] = rows[i].toCharArray();&#10;            for (char c : this.rows[i]) {&#10;                if (c != '/'&#10;                    &amp;&amp; c != 'x'&#10;                    &amp;&amp; c != '.'&#10;                    &amp;&amp; c != '*'&#10;                    &amp;&amp; !(c &gt;= '0' &amp;&amp; c &lt;= '9')) {&#10;                    throw new Exception(&#10;                        &quot;A row of the grid should contain &quot; +&#10;                            &quot;'/', 'X', '.' or '*' or numbers. \n&quot; +&#10;                            &quot;Found: '&quot; + c + &quot;' in row \&quot;&quot; + rows[i] + &quot;\&quot;&quot;&#10;                    );&#10;                }&#10;            }&#10;        }&#10;    }&#10;&#10;    @Override&#10;    public String toString() {&#10;        String res = &quot;&quot;;&#10;        for (int i = 0; i &lt; this.rows.length; i++) {&#10;            res += new String(this.rows[i]) + &quot;\n&quot;;&#10;        }&#10;        return res.trim();&#10;    }&#10;&#10;    int count(char c) {&#10;        int sum = 0;&#10;        for (char[] row : rows) {&#10;            for (char ch : row) {&#10;                sum += ch == c ? 1 : 0;&#10;            }&#10;        }&#10;        return sum;&#10;    }&#10;&#10;    int countAround(int x, int y, char c) {&#10;        int[] around = new int[] {-1, 0, 1};&#10;        int count = 0;&#10;        for (int dx : around) {&#10;            for (int dy : around) {&#10;&#10;                int newX = x + dx;&#10;                int newY = y + dy;&#10;&#10;                if (1 &lt;= newX &amp;&amp; newX &lt;= 9 &amp;&amp;&#10;                    1 &lt;= newY &amp;&amp; newY &lt;= 9) {&#10;                    if (get(newX, newY) == c) {&#10;                        count++;&#10;                    }&#10;                }&#10;            }&#10;        }&#10;        return count;&#10;    }&#10;&#10;    int distanceToCenter(int x, int y) {&#10;        return abs(x - 5) + abs(y - 5);&#10;    }&#10;&#10;    void replaceAround(int x, int y, char from, char to) {&#10;        int[] around = new int[] {-1, 0, 1};&#10;        int count = 0;&#10;        for (int dx : around) {&#10;            for (int dy : around) {&#10;&#10;                int newX = x + dx;&#10;                int newY = y + dy;&#10;&#10;                if (1 &lt;= newX &amp;&amp; newX &lt;= 9 &amp;&amp;&#10;                    1 &lt;= newY &amp;&amp; newY &lt;= 9) {&#10;                    if (get(newX, newY) == from) {&#10;                        set(newX, newY, to);&#10;                    }&#10;                }&#10;            }&#10;        }&#10;    }&#10;&#10;    char get(int x, int y) {&#10;        return rows[y-1][x-1];&#10;    }&#10;&#10;    void set(int x, int y, char c) {&#10;        rows[y-1][x-1] = c;&#10;    }&#10;&#10;    Grid copy() {&#10;        String[] rows = new String[this.rows.length];&#10;        for (int i = 0; i &lt; this.rows.length; i++) {&#10;            rows[i] = new String(this.rows[i]);&#10;        }&#10;        try {&#10;            return new Grid(rows);&#10;        } catch (Exception ex) {&#10;            return null;&#10;        }&#10;    }&#10;&#10;    int differences(Grid other) {&#10;        int diff = 0;&#10;        for (int x = 1; x &lt;= 9; x++) {&#10;            for (int y = 1; y &lt;= 9; y++) {&#10;                diff += get(x, y) != other.get(x, y) ? 1 : 0;&#10;            }&#10;        }&#10;        return diff;&#10;    }&#10;&#10;    void checkField(boolean withRealMines) throws Exception {&#10;        for (int x = 1; x &lt;= 9; x++) {&#10;            for (int y = 1; y &lt;= 9; y++) {&#10;                char c = get(x, y);&#10;                if (!withRealMines &amp;&amp; c == 'x') {&#10;                    throw new Exception(&#10;                        &quot;The word \&quot;failed\&quot; was not found, &quot; +&#10;                            &quot;but the field contains \'X\' characters. &quot; +&#10;                            &quot;This should not be the case.&quot;&#10;                    );&#10;                }&#10;                if (c == '/') {&#10;                    int dotsAround = countAround(x, y, '.');&#10;                    if (dotsAround != 0) {&#10;                        throw new Exception(&#10;                            &quot;The field contains '.' and '/' &quot; +&#10;                                &quot;characters that are next to each other. &quot; +&#10;                                &quot;This situation is impossible.&quot;&#10;                        );&#10;                    }&#10;                    if (withRealMines) {&#10;                        int minesAround = countAround(x, y, 'x');&#10;                        if (minesAround != 0) {&#10;                            throw new Exception(&#10;                                &quot;The field contains 'X' and '/' &quot; +&#10;                                    &quot;characters that are next to each other. &quot; +&#10;                                    &quot;This situation is impossible.&quot;&#10;                            );&#10;                        }&#10;                    }&#10;                }&#10;                if (c &gt;= '1' &amp;&amp; c &lt;= '9') {&#10;                    int num = c - '0';&#10;                    int freePlacesAround =&#10;                        countAround(x, y, '.') +&#10;                            countAround(x, y, '*');&#10;&#10;                    if (withRealMines) {&#10;                        freePlacesAround += countAround(x, y, 'x');&#10;                    }&#10;&#10;                    if (num &gt; freePlacesAround) {&#10;                        throw new Exception(&#10;                            &quot;There is a number &quot; + num + &quot; in the field, &quot; +&#10;                                &quot;but there are fewer free fields &quot; +&#10;                                &quot;around which to put a mine. &quot; +&#10;                                &quot;This situation is impossible.&quot;&#10;                        );&#10;                    }&#10;                }&#10;                if (c == '*') {&#10;                    int guaranteedEmptyAround = countAround(x, y, '/');&#10;                    if (guaranteedEmptyAround != 0) {&#10;                        throw new Exception(&#10;                            &quot;The field contains '*' and '/' &quot; +&#10;                                &quot;characters that are next to each other. &quot; +&#10;                                &quot;This situation is impossible. If there was &quot; +&#10;                                &quot;'*' character it should be replaced to '/' &quot; +&#10;                                &quot;(or to a number) &quot; +&#10;                                &quot;when the cell near it replaced to '/'.&quot;&#10;                        );&#10;                    }&#10;                }&#10;            }&#10;        }&#10;    }&#10;&#10;    void checkMiddleGame() throws Exception {&#10;        checkField(false);&#10;    }&#10;&#10;    void checkFail() throws Exception {&#10;        checkField(true);&#10;    }&#10;&#10;    static List&lt;Grid&gt; parse(String output) throws Exception {&#10;&#10;        output = output.replaceAll(&quot;│&quot;, &quot;|&quot;);&#10;        output = output.replaceAll(&quot;—&quot;, &quot;-&quot;);&#10;&#10;        List&lt;Grid&gt; grids = new LinkedList&lt;&gt;();&#10;        String[] lines = output.split(&quot;\n&quot;);&#10;&#10;        boolean gridStarted = false;&#10;        List&lt;String&gt; newGrid = new LinkedList&lt;&gt;();&#10;        for (String line : lines) {&#10;            line = line.trim();&#10;            if (line.contains(&quot;-|--&quot;)) {&#10;                gridStarted = !gridStarted;&#10;                if (gridStarted) {&#10;                    newGrid = new LinkedList&lt;&gt;();&#10;                } else {&#10;                    if (newGrid.size() != 9) {&#10;                        throw new Exception(&#10;                            &quot;Found grid that contains &quot; + newGrid.size() +&#10;                                &quot; but grid should contain 9 lines. \n&quot; +&#10;                                &quot;The tests assume that the grid is &quot; +&#10;                                &quot;between the lines containing the line \&quot;-│--\&quot;.&quot;&#10;                        );&#10;                    }&#10;                    grids.add(&#10;                        new Grid(newGrid.toArray(new String[0]))&#10;                    );&#10;                }&#10;                continue;&#10;            }&#10;            if (gridStarted) {&#10;&#10;                char toFind = '|';&#10;&#10;                long countBrackets =&#10;                    line.chars().filter(c -&gt; c == toFind).count();&#10;&#10;                if (countBrackets != 2) {&#10;                    throw new Exception(&#10;                        &quot;Grid should contain &quot; +&#10;                            &quot;two '|' symbols, at the beginning &quot; +&#10;                            &quot;(after row number) &quot; +&#10;                            &quot;and at the end of the row. \n&quot; +&#10;                            &quot;Your line: \&quot;&quot; + line + &quot;\&quot;.&quot;&#10;                    );&#10;                }&#10;&#10;                int first = line.indexOf(toFind) + 1;&#10;                int second = line.indexOf(toFind, first);&#10;&#10;                int rowSize = second - first;&#10;&#10;                if (rowSize != 9) {&#10;                    throw new Exception(&#10;                        &quot;Every row of the grid should contain &quot; +&#10;                            &quot;9 symbols between '|' chars. \nThis line has &quot; +&#10;                            rowSize + &quot; symbols: \&quot;&quot; + line + &quot;\&quot;.&quot;&#10;                    );&#10;                }&#10;&#10;                String row = line.substring(first, second);&#10;&#10;                newGrid.add(row);&#10;            }&#10;        }&#10;&#10;        return grids;&#10;    }&#10;&#10;}&#10;&#10;class Coords {&#10;    int x;&#10;    int y;&#10;    Coords(int x, int y) {&#10;        this.x = x;&#10;        this.y = y;&#10;    }&#10;}&#10;&#10;enum FirstPressStatus {&#10;    NOT_PRESSED_FREE, PRESSED_FREE, VERIFIED_OK&#10;}&#10;&#10;class State {&#10;    int minesCount = 0;&#10;    FirstPressStatus isStart = FirstPressStatus.NOT_PRESSED_FREE;&#10;    List&lt;Coords&gt; marks = new ArrayList&lt;&gt;();&#10;}&#10;&#10;public class MinesweeperTest extends BaseStageTest&lt;State&gt; {&#10;&#10;    public MinesweeperTest() {&#10;        super(Main.class);&#10;    }&#10;&#10;    @Override&#10;    public List&lt;TestCase&lt;State&gt;&gt; generate() {&#10;        List&lt;TestCase&lt;State&gt;&gt; tests = new ArrayList&lt;&gt;();&#10;&#10;        for (int i = 1; i &lt; 70; i += i &lt; 10 ? 1 : 5) {&#10;            for (int j = 0; j &lt; (i &lt; 5 ? 20 : 2); j++) {&#10;                State state = new State();&#10;                state.minesCount = i;&#10;                tests.add(new TestCase&lt;State&gt;()&#10;                    .addInput(&quot;&quot; + i)&#10;                    .addInfInput(out -&gt; createDynamicInput(out, state))&#10;                    .setAttach(state)&#10;                );&#10;            }&#10;        }&#10;        return tests;&#10;    }&#10;&#10;    private Object createDynamicInput(String out, State state) {&#10;        out = out.trim().toLowerCase();&#10;&#10;        List&lt;Grid&gt; grids;&#10;        try {&#10;            grids = Grid.parse(out);&#10;        } catch (Exception ex) {&#10;            return CheckResult.FALSE(ex.getMessage());&#10;        }&#10;&#10;        if (grids.size() == 0) {&#10;            return CheckResult.FALSE(&#10;                &quot;Cannot find a field. Make sure you output &quot; +&#10;                &quot;this field using '|' and '-' or '│' and '—' characters.&quot;&#10;            );&#10;        }&#10;&#10;        Grid grid = grids.get(0);&#10;&#10;        state.marks.removeIf(elem -&gt; {&#10;            char c = grid.get(elem.x, elem.y);&#10;            boolean isGuaranteedEmptyNow = c == '/';&#10;            boolean isNumberNow = c &gt;= '1' &amp;&amp; c &lt;= '9';&#10;            boolean isFailed = c == 'x';&#10;            return isGuaranteedEmptyNow || isNumberNow || isFailed;&#10;        });&#10;&#10;        int starCount = grid.count('*');&#10;        int shouldBeStars = state.marks.size();&#10;        if (starCount != shouldBeStars) {&#10;            return CheckResult.FALSE(&#10;                &quot;There should be &quot; + shouldBeStars + &quot; '*' symbols in the &quot; +&#10;                    &quot;grid. Found: &quot; + starCount&#10;            );&#10;        }&#10;        if (out.contains(&quot;failed&quot;)) {&#10;            if (state.isStart != FirstPressStatus.VERIFIED_OK) {&#10;                return CheckResult.FALSE(&#10;                    &quot;The user should not lose at the first \&quot;free\&quot; move.&quot;&#10;                );&#10;            }&#10;            try {&#10;                grid.checkFail();&#10;                int minesCount = grid.count('x');&#10;                if (minesCount != state.minesCount) {&#10;                    return CheckResult.FALSE(&#10;                        &quot;There is &quot; + minesCount + &quot; mines in the field. &quot; +&#10;                            &quot;But initially the user &quot; +&#10;                            &quot;entered &quot; + state.minesCount + &quot; mines.&quot;&#10;                    );&#10;                }&#10;                return CheckResult.TRUE;&#10;            } catch (Exception ex) {&#10;                return CheckResult.FALSE(ex.getMessage());&#10;            }&#10;        }&#10;&#10;        if (state.isStart == FirstPressStatus.PRESSED_FREE) {&#10;            state.isStart = FirstPressStatus.VERIFIED_OK;&#10;        }&#10;&#10;        try {&#10;            grid.checkMiddleGame();&#10;        } catch (Exception ex) {&#10;            return CheckResult.FALSE(ex.getMessage());&#10;        }&#10;&#10;        if (out.contains(&quot;congratulations&quot;)) {&#10;            int freeCellsCount = grid.count('.') + grid.count('*');&#10;            if (freeCellsCount != state.minesCount &amp;&amp;&#10;                state.marks.size() != state.minesCount) {&#10;                return CheckResult.FALSE(&#10;                    &quot;The word \&quot;congratulations\&quot; was found, &quot; +&#10;                        &quot;but there are &quot; + freeCellsCount + &quot; free cells &quot; +&#10;                        &quot;left on the field, although the user &quot; +&#10;                        &quot;entered &quot; + state.minesCount + &quot; mines.&quot;&#10;                );&#10;            }&#10;            return CheckResult.TRUE;&#10;        }&#10;&#10;        Random random = new Random();&#10;&#10;        int dotsCount = grid.count('.');&#10;&#10;        if (starCount != 0 &amp;&amp; (random.nextInt(4) == 0 || dotsCount == 0)) {&#10;            int nextMine = random.nextInt(state.marks.size());&#10;            Coords mineToRemove = state.marks.get(nextMine);&#10;            state.marks.remove(mineToRemove);&#10;            int x = mineToRemove.x;&#10;            int y = mineToRemove.y;&#10;            return x + &quot; &quot; + y + &quot; mine&quot;;&#10;        }&#10;&#10;        if (dotsCount == 0) {&#10;            return CheckResult.FALSE(&#10;                &quot;There are no '.' cells in the field, &quot; +&#10;                    &quot;but the game is not over. Something is wrong.&quot;&#10;            );&#10;        }&#10;&#10;        while (true) {&#10;            int x = 1 + random.nextInt(9);&#10;            int y = 1 + random.nextInt(9);&#10;&#10;            char c = grid.get(x, y);&#10;            if (c == '.') {&#10;                boolean isMine = random.nextInt(3) == 0;&#10;                if (isMine) {&#10;                    state.marks.add(new Coords(x, y));&#10;                    return x + &quot; &quot; + y + &quot; mine&quot;;&#10;                } else {&#10;                    if (state.isStart == FirstPressStatus.NOT_PRESSED_FREE) {&#10;                        state.isStart = FirstPressStatus.PRESSED_FREE;&#10;                    }&#10;                    return x + &quot; &quot; + y + &quot; free&quot;;&#10;                }&#10;            }&#10;        }&#10;    }&#10;&#10;    @Override&#10;    public CheckResult check(String reply, State attach) {&#10;        String lastOutput = SystemOutHandler.getDynamicOutput();&#10;        Object obj = createDynamicInput(lastOutput, attach);&#10;        if (obj instanceof CheckResult) {&#10;            return (CheckResult) obj;&#10;        } else {&#10;            return CheckResult.FALSE(&#10;                &quot;The program ended but no words &quot; +&#10;                    &quot;\&quot;congratulations\&quot; or \&quot;failed\&quot; were found. &quot; +&#10;                    &quot;The program must end in one of these ways.&quot;&#10;            );&#10;        }&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/minesweeper/Main.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="src/minesweeper/Main.java" />
+                                <option name="text" value="package minesweeper;&#10;&#10;public class Main {&#10;    public static void main(String[] args) {&#10;        // write your code here&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1568629635000" />
+                    </EduTask>
+                  </list>
+                </option>
+              </FrameworkLesson>
+            </list>
+          </option>
+        </HyperskillCourse>
+      </option>
+    </StudyTaskManager>
+  </component>
+</project>
