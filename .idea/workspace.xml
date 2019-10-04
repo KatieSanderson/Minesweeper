@@ -2,8 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a44ef9d-269c-457f-9678-b8e5d0132223" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageData" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageData" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageRecordIndex" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageRecordIndex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Minesweeper/task/src/minesweeper/MineState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.3.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.3.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.3.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.3.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.3.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.3.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.3.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.3.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.3.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/study_project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/study_project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Minesweeper/task/build/classes/java/main/minesweeper/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Minesweeper/task/build/classes/java/main/minesweeper/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Minesweeper/task/build/classes/java/main/minesweeper/Mine.class" beforeDir="false" afterPath="$PROJECT_DIR$/Minesweeper/task/build/classes/java/main/minesweeper/Mine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Minesweeper/task/build/classes/java/main/minesweeper/Minefield.class" beforeDir="false" afterPath="$PROJECT_DIR$/Minesweeper/task/build/classes/java/main/minesweeper/Minefield.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Minesweeper/task/build/classes/java/test/MinesweeperTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Minesweeper/task/build/classes/java/test/MinesweeperTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Minesweeper/task/build/reports/tests/test/classes/MinesweeperTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/Minesweeper/task/build/reports/tests/test/classes/MinesweeperTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Minesweeper/task/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Minesweeper/task/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Minesweeper/task/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/Minesweeper/task/build/reports/tests/test/packages/default-package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Minesweeper/task/build/test-results/test/TEST-MinesweeperTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Minesweeper/task/build/test-results/test/TEST-MinesweeperTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Minesweeper/task/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Minesweeper/task/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Minesweeper/task/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/Minesweeper/task/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Minesweeper/task/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Minesweeper/task/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Minesweeper/task/src/minesweeper/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Minesweeper/task/src/minesweeper/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Minesweeper/task/src/minesweeper/Mine.java" beforeDir="false" afterPath="$PROJECT_DIR$/Minesweeper/task/src/minesweeper/Mine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Minesweeper/task/src/minesweeper/Minefield.java" beforeDir="false" afterPath="$PROJECT_DIR$/Minesweeper/task/src/minesweeper/Minefield.java" afterDir="false" />
@@ -38,8 +61,8 @@
           <provider selected="true" editor-type-id="StudyEditor">
             <state>
               <EduEditorState>
-                <MainEditorState relative-caret-position="289">
-                  <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+                <MainEditorState relative-caret-position="510">
+                  <caret line="30" column="66" selection-start-line="30" selection-start-column="66" selection-end-line="30" selection-end-column="66" />
                 </MainEditorState>
               </EduEditorState>
             </state>
@@ -52,6 +75,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -61,9 +85,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Minesweeper/task/src/minesweeper/MineState.java" />
+        <option value="$PROJECT_DIR$/Minesweeper/task/src/minesweeper/Main.java" />
         <option value="$PROJECT_DIR$/Minesweeper/task/src/minesweeper/Minefield.java" />
         <option value="$PROJECT_DIR$/Minesweeper/task/src/minesweeper/Mine.java" />
-        <option value="$PROJECT_DIR$/Minesweeper/task/src/minesweeper/Main.java" />
       </list>
     </option>
   </component>
@@ -107,7 +132,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570151999281" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570219844799" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -160,28 +185,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Tests_in_'Minesweeper-task_test' - 2019.10.04 at 01h 47m 06s.xml">
+    <history-entry file="Tests_in_'Minesweeper-task_test' - 2019.10.04 at 02h 41m 36s.xml">
       <configuration name="Tests in 'Minesweeper-task_test'" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="Tests_in_'Minesweeper-task_test' - 2019.10.04 at 01h 51m 48s.xml">
+    <history-entry file="Tests_in_'Minesweeper-task_test' - 2019.10.04 at 02h 42m 04s.xml">
       <configuration name="Tests in 'Minesweeper-task_test'" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="Tests_in_'Minesweeper-task_test' - 2019.10.04 at 01h 53m 47s.xml">
+    <history-entry file="Tests_in_'Minesweeper-task_test' - 2019.10.04 at 02h 43m 04s.xml">
       <configuration name="Tests in 'Minesweeper-task_test'" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="Tests_in_'Minesweeper-task_test' - 2019.10.04 at 01h 56m 02s.xml">
+    <history-entry file="Tests_in_'Minesweeper-task_test' - 2019.10.04 at 02h 44m 19s.xml">
       <configuration name="Tests in 'Minesweeper-task_test'" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="Tests_in_'Minesweeper-task_test' - 2019.10.04 at 01h 57m 43s.xml">
+    <history-entry file="Tests_in_'Minesweeper-task_test' - 2019.10.04 at 02h 45m 04s.xml">
       <configuration name="Tests in 'Minesweeper-task_test'" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="Tests_in_'Minesweeper-task_test' - 2019.10.04 at 02h 06m 15s.xml">
+    <history-entry file="Tests_in_'Minesweeper-task_test' - 2019.10.04 at 14h 42m 44s.xml">
       <configuration name="Tests in 'Minesweeper-task_test'" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="Tests_in_'Minesweeper-task_test' - 2019.10.04 at 02h 18m 12s.xml">
+    <history-entry file="Tests_in_'Minesweeper-task_test' - 2019.10.04 at 23h 25m 39s.xml">
       <configuration name="Tests in 'Minesweeper-task_test'" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="Tests_in_'Minesweeper-task_test' - 2019.10.04 at 02h 19m 02s.xml">
+    <history-entry file="Tests_in_'Minesweeper-task_test' - 2019.10.04 at 23h 28m 46s.xml">
+      <configuration name="Tests in 'Minesweeper-task_test'" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="Tests_in_'Minesweeper-task_test' - 2019.10.04 at 23h 30m 37s.xml">
+      <configuration name="Tests in 'Minesweeper-task_test'" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="Tests_in_'Minesweeper-task_test' - 2019.10.04 at 23h 30m 38s.xml">
       <configuration name="Tests in 'Minesweeper-task_test'" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
@@ -202,14 +233,14 @@
       <window_info anchor="bottom" id="DB Execution Console" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Educational.CheckDetails" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" weight="0.3286119" />
       <window_info anchor="bottom" id="Build" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Console" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.40651557" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.04249292" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -227,23 +258,34 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Minesweeper/task/src/minesweeper/Minefield.java">
+    <entry file="file://$PROJECT_DIR$/Minesweeper/task/src/minesweeper/Mine.java">
       <provider selected="true" editor-type-id="StudyEditor">
         <state>
           <EduEditorState>
-            <MainEditorState relative-caret-position="301">
-              <caret line="36" column="33" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="33" />
+            <MainEditorState relative-caret-position="-272">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </MainEditorState>
           </EduEditorState>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Minesweeper/task/src/minesweeper/Mine.java">
+    <entry file="file://$PROJECT_DIR$/Minesweeper/task/src/minesweeper/MineState.java">
       <provider selected="true" editor-type-id="StudyEditor">
         <state>
           <EduEditorState>
-            <MainEditorState relative-caret-position="459">
-              <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+            <MainEditorState relative-caret-position="102">
+              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+            </MainEditorState>
+          </EduEditorState>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Minesweeper/task/src/minesweeper/Minefield.java">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state>
+          <EduEditorState>
+            <MainEditorState relative-caret-position="250">
+              <caret line="93" column="43" selection-start-line="93" selection-start-column="43" selection-end-line="93" selection-end-column="43" />
             </MainEditorState>
           </EduEditorState>
         </state>
@@ -253,8 +295,8 @@
       <provider selected="true" editor-type-id="StudyEditor">
         <state>
           <EduEditorState>
-            <MainEditorState relative-caret-position="289">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <MainEditorState relative-caret-position="510">
+              <caret line="30" column="66" selection-start-line="30" selection-start-column="66" selection-end-line="30" selection-end-column="66" />
             </MainEditorState>
           </EduEditorState>
         </state>

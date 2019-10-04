@@ -2,12 +2,15 @@ package minesweeper;
 
 import java.util.Random;
 
-public class Minefield {
+class Minefield {
 
     private final int fieldHeight;
     private final int fieldWidth;
     private final int numMines;
     private final Mine[][] field;
+
+    private int correctMineCount;
+    private int incorrectMineCount;
 
     Minefield(int fieldHeight, int fieldWidth, int numMines) {
         this.fieldHeight = fieldHeight;
@@ -60,11 +63,58 @@ public class Minefield {
     }
 
     void printField() {
-        for (int i = 0; i < field.length; i++) {
-            for (int j = 0; j < field[0].length; j++) {
-                System.out.print(field[i][j]);
-            }
-            System.out.println();
+        System.out.println(" │123456789│");
+        System.out.print("—│");
+        for (int i = 0; i < fieldWidth; i++) {
+            System.out.print("-");
         }
+        System.out.println("│");
+        for (int i = 0; i < field.length; i++) {
+            System.out.print((i + 1) + "│");
+            for (int j = 0; j < field[0].length; j++) {
+                System.out.print(field[i][j].printMine());
+            }
+            System.out.println("│");
+        }
+        System.out.print("—│");
+        for (int i = 0; i < fieldWidth; i++) {
+            System.out.print("-");
+        }
+        System.out.println("│");
+    }
+
+    void processMineMark(int[] userInput) {
+        Mine spot = field[userInput[0]][userInput[1]];
+        switch (spot.getState()) {
+            case NUMBER:
+                System.out.println("There is a number here!");
+                break;
+            case BLANK:
+                if (spot.isGuessed()) {
+                    spot.setAsNotGuessed();
+                    incorrectMineCount--;
+                } else {
+                    spot.setAsGuessed();
+                    incorrectMineCount++;
+                }
+                printField();
+                break;
+            case MINE:
+                if (spot.isGuessed()) {
+                    spot.setAsNotGuessed();
+                    correctMineCount--;
+                } else {
+                    spot.setAsGuessed();
+                    correctMineCount++;
+                }
+                printField();
+                break;
+            default:
+                throw new RuntimeException("Invalid state");
+        }
+    }
+
+    boolean isGameWon() {
+        return correctMineCount == numMines && incorrectMineCount == 0;
     }
 }

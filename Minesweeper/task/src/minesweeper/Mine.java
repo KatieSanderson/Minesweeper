@@ -1,29 +1,53 @@
 package minesweeper;
 
-public class Mine {
+class Mine {
 
-    private boolean isMine;
-//    private boolean hasBeenChecked;
+    private MineState state;
+    private boolean isGuessed;
     private int numberNearbyMines;
 
-    void setAsMine() {
-        isMine = true;
+    Mine() {
+        state = MineState.BLANK;
+        isGuessed = false;
+        numberNearbyMines = 0;
     }
 
-    void setNumberNearbyMines(int numberNearbyMines) {
-        this.numberNearbyMines = numberNearbyMines;
+    void setAsMine() {
+        state = MineState.MINE;
     }
 
     boolean isMine() {
-        return isMine;
+        return state == MineState.MINE;
     }
 
-    @Override
-    public String toString() {
-        if (isMine) {
-            return "X";
-        } else if (numberNearbyMines > 0 && numberNearbyMines < 9) {
+    MineState getState() {
+        return state;
+    }
+
+    void setAsGuessed() {
+        isGuessed = true;
+    }
+
+    void setAsNotGuessed() {
+        isGuessed = false;
+    }
+
+    boolean isGuessed() {
+        return isGuessed;
+    }
+
+    void setNumberNearbyMines(int numberNearbyMines) {
+        if (state != MineState.MINE && numberNearbyMines > 0 && numberNearbyMines < 9) {
+            this.numberNearbyMines = numberNearbyMines;
+            state = MineState.NUMBER;
+        }
+    }
+
+    public String printMine() {
+        if (state == MineState.NUMBER) {
             return "" + numberNearbyMines;
+        } else if (isGuessed) {
+            return "*";
         } else {
             return ".";
         }
