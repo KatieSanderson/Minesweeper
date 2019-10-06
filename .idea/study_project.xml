@@ -722,7 +722,7 @@
                       <option name="index" value="5" />
                       <option name="name" value="Battle!" />
                       <option name="record" value="-1" />
-                      <option name="status" value="Unchecked" />
+                      <option name="status" value="Failed" />
                       <option name="files">
                         <map>
                           <entry key="test/MinesweeperTest.java">
@@ -745,23 +745,9 @@
                                 <option name="answerPlaceholders">
                                   <list />
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="name" value="src/minesweeper/Main.java" />
                                 <option name="text" value="package minesweeper;&#10;&#10;public class Main {&#10;    public static void main(String[] args) {&#10;        // write your code here&#10;    }&#10;}&#10;" />
-                                <option name="trackChanges" value="true" />
-                                <option name="visible" value="true" />
-                              </TaskFile>
-                            </value>
-                          </entry>
-                          <entry key="src/minesweeper/MineState.java">
-                            <value>
-                              <TaskFile>
-                                <option name="answerPlaceholders">
-                                  <list />
-                                </option>
-                                <option name="highlightErrors" value="false" />
-                                <option name="name" value="src/minesweeper/MineState.java" />
-                                <option name="text" value="package minesweeper;&#10;&#10;public enum MineState {&#10;&#10;    NUMBER,&#10;    BLANK,&#10;    MINE&#10;}&#10;" />
                                 <option name="trackChanges" value="true" />
                                 <option name="visible" value="true" />
                               </TaskFile>
@@ -773,7 +759,7 @@
                                 <option name="answerPlaceholders">
                                   <list />
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="name" value="src/minesweeper/Mine.java" />
                                 <option name="text" value="package minesweeper;&#10;&#10;class Mine {&#10;&#10;    private MineState state;&#10;    private boolean isGuessed;&#10;    private int numberNearbyMines;&#10;&#10;    Mine() {&#10;        state = MineState.BLANK;&#10;        isGuessed = false;&#10;        numberNearbyMines = 0;&#10;    }&#10;&#10;    void setAsMine() {&#10;        state = MineState.MINE;&#10;    }&#10;&#10;    boolean isMine() {&#10;        return state == MineState.MINE;&#10;    }&#10;&#10;    MineState getState() {&#10;        return state;&#10;    }&#10;&#10;    void setAsGuessed() {&#10;        isGuessed = true;&#10;    }&#10;&#10;    void setAsNotGuessed() {&#10;        isGuessed = false;&#10;    }&#10;&#10;    boolean isGuessed() {&#10;        return isGuessed;&#10;    }&#10;&#10;    void setNumberNearbyMines(int numberNearbyMines) {&#10;        if (state != MineState.MINE &amp;&amp; numberNearbyMines &gt; 0 &amp;&amp; numberNearbyMines &lt; 9) {&#10;            this.numberNearbyMines = numberNearbyMines;&#10;            state = MineState.NUMBER;&#10;        }&#10;    }&#10;&#10;    public String printMine() {&#10;        if (state == MineState.NUMBER) {&#10;            return &quot;&quot; + numberNearbyMines;&#10;        } else if (isGuessed) {&#10;            return &quot;*&quot;;&#10;        } else {&#10;            return &quot;.&quot;;&#10;        }&#10;    }&#10;}" />
                                 <option name="trackChanges" value="true" />
@@ -787,9 +773,23 @@
                                 <option name="answerPlaceholders">
                                   <list />
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="name" value="src/minesweeper/Minefield.java" />
                                 <option name="text" value="package minesweeper;&#10;&#10;import java.util.Random;&#10;&#10;class Minefield {&#10;&#10;    private final int fieldHeight;&#10;    private final int fieldWidth;&#10;    private final int numMines;&#10;    private final Mine[][] field;&#10;&#10;    private int correctMineCount;&#10;    private int incorrectMineCount;&#10;&#10;    Minefield(int fieldHeight, int fieldWidth, int numMines) {&#10;        this.fieldHeight = fieldHeight;&#10;        this.fieldWidth = fieldWidth;&#10;        this.numMines = numMines;&#10;        field = new Mine[fieldHeight][fieldWidth];&#10;        for (int i = 0; i &lt; field.length; i++) {&#10;            for (int j = 0; j &lt; field[0].length; j++) {&#10;                field[i][j] = new Mine();&#10;            }&#10;        }&#10;    }&#10;&#10;    void generateMineSpots() {&#10;        Random random = new Random();&#10;        int minedSpots = 0;&#10;        while (minedSpots &lt; numMines) {&#10;            int heightToMine = random.nextInt(fieldHeight);&#10;            int widthToMine = random.nextInt(fieldWidth);&#10;            if (!field[heightToMine][widthToMine].isMine()) {&#10;                field[heightToMine][widthToMine].setAsMine();&#10;                minedSpots++;&#10;            }&#10;        }&#10;    }&#10;&#10;    void evaluateNeighboringMines() {&#10;        for (int i = 0; i &lt; field.length; i++) {&#10;            for (int j = 0; j &lt; field[0].length; j++) {&#10;                int mineCount = 0;&#10;                mineCount += isNeighborMine(i - 1, j - 1) ? 1 : 0;&#10;                mineCount += isNeighborMine(i - 1, j) ? 1 : 0;&#10;                mineCount += isNeighborMine(i - 1, j + 1) ? 1 : 0;&#10;                mineCount += isNeighborMine(i, j - 1) ? 1 : 0;&#10;                mineCount += isNeighborMine(i, j + 1) ? 1 : 0;&#10;                mineCount += isNeighborMine(i + 1, j - 1) ? 1 : 0;&#10;                mineCount += isNeighborMine(i + 1, j) ? 1 : 0;&#10;                mineCount += isNeighborMine(i + 1, j + 1) ? 1 : 0;&#10;                field[i][j].setNumberNearbyMines(mineCount);&#10;            }&#10;            System.out.println();&#10;        }&#10;    }&#10;&#10;    private boolean isNeighborMine(int height, int width) {&#10;        if (height &lt; 0 || width &lt; 0 || height &gt;= fieldHeight || width &gt;= fieldWidth) {&#10;            return false;&#10;        }&#10;        return field[height][width].isMine();&#10;    }&#10;&#10;    void printField() {&#10;        System.out.println(&quot; │123456789│&quot;);&#10;        System.out.print(&quot;—│&quot;);&#10;        for (int i = 0; i &lt; fieldWidth; i++) {&#10;            System.out.print(&quot;-&quot;);&#10;        }&#10;        System.out.println(&quot;│&quot;);&#10;        for (int i = 0; i &lt; field.length; i++) {&#10;            System.out.print((i + 1) + &quot;│&quot;);&#10;            for (int j = 0; j &lt; field[0].length; j++) {&#10;                System.out.print(field[i][j].printMine());&#10;            }&#10;            System.out.println(&quot;│&quot;);&#10;        }&#10;        System.out.print(&quot;—│&quot;);&#10;        for (int i = 0; i &lt; fieldWidth; i++) {&#10;            System.out.print(&quot;-&quot;);&#10;        }&#10;        System.out.println(&quot;│&quot;);&#10;    }&#10;&#10;    void processMineMark(int[] userInput) {&#10;        Mine spot = field[userInput[0]][userInput[1]];&#10;        switch (spot.getState()) {&#10;            case NUMBER:&#10;                System.out.println(&quot;There is a number here!&quot;);&#10;                break;&#10;            case BLANK:&#10;                if (spot.isGuessed()) {&#10;                    spot.setAsNotGuessed();&#10;                    incorrectMineCount--;&#10;                } else {&#10;                    spot.setAsGuessed();&#10;                    incorrectMineCount++;&#10;                }&#10;                printField();&#10;                break;&#10;            case MINE:&#10;                if (spot.isGuessed()) {&#10;                    spot.setAsNotGuessed();&#10;                    correctMineCount--;&#10;                } else {&#10;                    spot.setAsGuessed();&#10;                    correctMineCount++;&#10;                }&#10;                printField();&#10;                break;&#10;            default:&#10;                throw new RuntimeException(&quot;Invalid state&quot;);&#10;        }&#10;    }&#10;&#10;    boolean isGameWon() {&#10;        return correctMineCount == numMines &amp;&amp; incorrectMineCount == 0;&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/minesweeper/Input.java">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/minesweeper/Input.java" />
+                                <option name="text" value="" />
                                 <option name="trackChanges" value="true" />
                                 <option name="visible" value="true" />
                               </TaskFile>

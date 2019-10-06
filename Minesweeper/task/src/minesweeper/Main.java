@@ -11,24 +11,26 @@ public class Main {
         int numMines = Integer.parseInt(scanner.nextLine());
 
         Minefield minefield = new Minefield(height, width, numMines);
-        minefield.generateMineSpots();
-        minefield.evaluateNeighboringMines();
+        minefield.printField();
+        minefield.buildBoardFromInput(getUserInput(scanner));
         minefield.printField();
 
-        boolean foundAllMines = false;
-        while (!foundAllMines) {
+        boolean isGameWon = false;
+        while (!isGameWon) {
             minefield.processMineMark(getUserInput(scanner));
             if (minefield.isGameWon()) {
                 System.out.println("Congratulations! You founded all mines!");
-                foundAllMines = true;
+                isGameWon = true;
+            } else {
+                minefield.printField();
             }
         }
     }
 
-    private static int[] getUserInput(Scanner scanner) {
+    private static Input getUserInput(Scanner scanner) {
         System.out.print("Set/delete mines marks (x and y coordinates): ");
         String[] input = scanner.nextLine().split(" ");
         // convert user-scale (1 based) into array-scale (0 based)
-        return new int[] {Integer.parseInt(input[1]) - 1, Integer.parseInt(input[0]) - 1};
+        return new Input(Integer.parseInt(input[1]) - 1, Integer.parseInt(input[0]) - 1, input[2]);
     }
 }

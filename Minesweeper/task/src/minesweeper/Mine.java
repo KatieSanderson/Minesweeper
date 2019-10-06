@@ -2,54 +2,94 @@ package minesweeper;
 
 class Mine {
 
-    private MineState state;
-    private boolean isGuessed;
+    public enum MineState {
+        NUMBER,
+        BLANK,
+        MINE
+    }
+    public enum GuessState {
+        NOT_GUESSED,
+        FLAGGED,
+        FREE
+    }
+
+    private final int height;
+    private final int width;
+
+    private MineState mineState;
+    private GuessState guessState;
     private int numberNearbyMines;
 
-    Mine() {
-        state = MineState.BLANK;
-        isGuessed = false;
+    Mine(int height, int width) {
+        this.height = height;
+        this.width = width;
+        mineState = MineState.BLANK;
+        guessState = GuessState.NOT_GUESSED;
         numberNearbyMines = 0;
     }
 
     void setAsMine() {
-        state = MineState.MINE;
+        mineState = MineState.MINE;
     }
 
     boolean isMine() {
-        return state == MineState.MINE;
+        return mineState == MineState.MINE;
     }
 
-    MineState getState() {
-        return state;
+    MineState getMineState() {
+        return mineState;
     }
 
-    void setAsGuessed() {
-        isGuessed = true;
+    GuessState getGuessState() {
+        return guessState;
+    }
+
+    void setAsFlagged() {
+        guessState = GuessState.FLAGGED;
     }
 
     void setAsNotGuessed() {
-        isGuessed = false;
+        guessState = GuessState.NOT_GUESSED;
     }
 
-    boolean isGuessed() {
-        return isGuessed;
+    void setAsFree() {
+        guessState = GuessState.FREE;
     }
 
     void setNumberNearbyMines(int numberNearbyMines) {
-        if (state != MineState.MINE && numberNearbyMines > 0 && numberNearbyMines < 9) {
+        if (mineState != MineState.MINE && numberNearbyMines > 0 && numberNearbyMines < 9) {
             this.numberNearbyMines = numberNearbyMines;
-            state = MineState.NUMBER;
+            mineState = MineState.NUMBER;
         }
     }
 
-    public String printMine() {
-        if (state == MineState.NUMBER) {
-            return "" + numberNearbyMines;
-        } else if (isGuessed) {
-            return "*";
-        } else {
-            return ".";
+    int getNumberNearbyMines() {
+        return numberNearbyMines;
+    }
+
+    int getHeight() {
+        return height;
+    }
+
+    int getWidth() {
+        return width;
+    }
+
+    String printMine() {
+        switch (guessState) {
+            case FLAGGED:
+                return "*";
+            case NOT_GUESSED:
+                return ".";
+            case FREE:
+                switch (mineState) {
+                    case BLANK:
+                        return "/";
+                    case NUMBER:
+                        return "" + numberNearbyMines;
+                }
+            default:
+                throw new RuntimeException("Guess state error");
         }
     }
 }
